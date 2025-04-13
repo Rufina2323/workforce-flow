@@ -1,0 +1,26 @@
+body { 
+    font-family: Arial, sans-serif; 
+}
+
+#slider-container { 
+    margin: 20px; 
+    text-align: center; 
+}
+
+.bubble:hover { 
+    fill: orange; 
+}
+
+.axis-label { 
+    font-size: 14px; 
+    font-weight: bold; 
+}
+
+.tooltip {
+    position: absolute;
+    background-color: white;
+    border: 1px solid black;
+    padding: 5px;
+    display: none;
+    pointer-events: none;
+}
