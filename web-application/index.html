@@ -3,55 +3,118 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Innopolis Workforce Flow Analysis</title>
+    <title>Workforce Flow: Career Transitions in Tech</title>
     <script src="https://d3js.org/d3.v7.min.js"></script>
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <header>
-        <h1>Innopolis Workforce Flow Analysis</h1>
+    <nav class="top-nav">
+        <div class="nav-content">
+            <div class="logo">Workforce Flow</div>
+            <div class="nav-links">
+                <a href="#about">About</a>
+                <a href="#insights">Insights</a>
+                <a href="#visualization">Visualization</a>
+                <a href="#team">Team</a>
+            </div>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="hero-content">
+            <h1>Mapping Career Transitions in Tech</h1>
+            <p class="hero-subtitle">Discover how tech professionals navigate their careers through companies and roles over time</p>
+        </div>
     </header>
 
-    <section class="description">
-        <p>An interactive visualization platform analyzing career trajectories and professional transitions of Innopolis University alumni and tech professionals.</p>
-    </section>
+    <main>
+        <section id="about" class="story-section">
+            <h2>Understanding Career Mobility</h2>
+            <div class="content-grid">
+                <div class="text-content">
+                    <p>Our analysis reveals fascinating patterns in how tech professionals build their careers. Through data from thousands of career paths, we've uncovered insights about job transitions, skill evolution, and industry trends.</p>
+                </div>
+                <div class="stats-overview">
+                    <div class="stat-card">
+                        <h3>Professionals Analyzed</h3>
+                        <p class="stat-number">1,234</p>
+                    </div>
+                    <div class="stat-card">
+                        <h3>Companies Tracked</h3>
+                        <p class="stat-number">56</p>
+                    </div>
+                    <div class="stat-card">
+                        <h3>Average Career Changes</h3>
+                        <p class="stat-number">2.5</p>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-    <section class="stats-overview">
-        <div class="stat-card">
-            <h3>Total Professionals</h3>
-            <p class="stat-number">1,234</p>
-        </div>
-        <div class="stat-card">
-            <h3>Companies</h3>
-            <p class="stat-number">56</p>
-        </div>
-        <div class="stat-card">
-            <h3>Avg. Career Changes</h3>
-            <p class="stat-number">2.5</p>
-        </div>
-    </section>
+        <section id="insights" class="story-section">
+            <h2>Key Insights</h2>
+            <div class="insights-grid">
+                <div class="insight-card">
+                    <h3>Career Progression</h3>
+                    <p>Tech professionals typically change companies every 2-3 years, with transitions peaking during economic booms.</p>
+                </div>
+                <div class="insight-card">
+                    <h3>Skill Evolution</h3>
+                    <p>The most adaptable professionals continuously update their skill sets, particularly in emerging technologies.</p>
+                </div>
+                <div class="insight-card">
+                    <h3>Industry Trends</h3>
+                    <p>Certain companies serve as launching pads for careers, while others tend to be long-term destinations.</p>
+                </div>
+            </div>
+        </section>
 
-    <section class="main-visualization">
-        <h2>Career Movement Visualization</h2>
-        <div id="slider-container">
-            <label for="yearSlider">Select Year:</label>
-            <input type="range" id="yearSlider" min="2017" max="2022" step="1" value="2019">
-            <span id="yearLabel">2019</span>
-        </div>
-        <svg id="main-chart" width="1120" height="800"></svg>
-        <div class="tooltip" id="tooltip"></div>
-    </section>
+        <section id="visualization" class="story-section">
+            <h2>Interactive Career Flows</h2>
+            <div class="viz-container">
+                <div id="slider-container">
+                    <label for="yearSlider">Explore by Year:</label>
+                    <input type="range" id="yearSlider" min="2017" max="2022" step="1" value="2019">
+                    <span id="yearLabel">2019</span>
+                </div>
+                <div class="main-visualization">
+                    <svg id="main-chart" width="1120" height="800"></svg>
+                    <div class="tooltip" id="tooltip"></div>
+                </div>
+            </div>
+        </section>
 
-    <section class="secondary-charts">
-        <div class="chart-container">
-            <h2>Skills Distribution</h2>
-            <svg id="skills-chart" width="520" height="400"></svg>
-        </div>
-        <div class="chart-container">
-            <h2>Job Roles Distribution</h2>
-            <svg id="roles-chart" width="520" height="400"></svg>
-        </div>
-    </section>
+        <section class="secondary-charts story-section">
+            <div class="chart-container">
+                <h2>Evolution of Skills</h2>
+                <p class="chart-description">Track how different skill sets gain and lose prominence over time</p>
+                <svg id="skills-chart" width="520" height="400"></svg>
+            </div>
+            <div class="chart-container">
+                <h2>Role Distribution</h2>
+                <p class="chart-description">Explore the changing landscape of job roles in tech</p>
+                <svg id="roles-chart" width="520" height="400"></svg>
+            </div>
+        </section>
+
+        <section id="team" class="story-section">
+            <h2>Meet the Team</h2>
+            <div class="team-grid">
+                <div class="team-member">
+                    <h3>Rufina Gafiiatullina</h3>
+                    <p>r.gafiiatullina@innopolis.university</p>
+                </div>
+                <div class="team-member">
+                    <h3>Arina Goncharova</h3>
+                    <p>a.goncharova@innopolis.university</p>
+                </div>
+                <div class="team-member">
+                    <h3>Liana Mardanova</h3>
+                    <p>l.mardanova@innopolis.university</p>
+                </div>
+            </div>
+        </section>
+    </main>
 
     <script src="js/chart.js"></script>
 </body>
