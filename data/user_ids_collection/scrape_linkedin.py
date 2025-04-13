@@ -29,7 +29,7 @@ time.sleep(5)
 
 # open modal to get more people
 try:
-    button = driver.find_element(By.CSS_SELECTOR, "div._1k2lxmev4._1k2lxmeyw._1k2lxme12w._1k2lxme16o.cnuthtb4.cnuthtds.cnutht18g.cnutht14.cnuththk.cnuthth4 > div > button")
+    button = driver.find_element(By.XPATH, '//*[@id="root"]/div[3]/div[2]/main/div/div/main/div/div/div/div/div[2]/section/div/div[1]/div/button')
     ActionChains(driver).move_to_element(button).click().perform()
     print("Modal window was opened")
     time.sleep(5)
@@ -55,8 +55,10 @@ def scroll_and_collect():
         # extract data from new cards
         for card in cards:
             try:
-                name = card.find_element(By.CSS_SELECTOR, 'p._12p2gmq9._1s9oaxg7').text
-                description = card.find_element(By.CSS_SELECTOR, 'p._12p2gmq9._12p2gmq2').text
+                # name = card.find_element(By.CSS_SELECTOR, 'p._12p2gmq9._1s9oaxg7').text
+                # description = card.find_element(By.CSS_SELECTOR, 'p._12p2gmq9._12p2gmq2').text
+                name = card.find_element(By.CSS_SELECTOR, 'p._1s9oaxgp._29kmc3a._1lu65cq2._1lu65cq1._1s9oaxg7._1s9oaxgn').text
+                description = card.find_element(By.CSS_SELECTOR, 'p._1s9oaxgp._29kmc36._1lu65cq3._1lu65cq1._1s9oaxg5._1s9oaxgn').text
                 profile_url = card.find_element(By.TAG_NAME, 'a').get_attribute('href')
 
                 user_data = {
@@ -88,7 +90,7 @@ def scroll_and_collect():
 all_users = scroll_and_collect()
 
 # save the results
-with open("initial_users_info.csv", mode="w", newline="", encoding="utf-8") as file:
+with open("initial_users_info_2.csv", mode="w", newline="", encoding="utf-8") as file:
     writer = csv.writer(file)
     writer.writerow(["name", "description", "url"])
     for user in all_users:
