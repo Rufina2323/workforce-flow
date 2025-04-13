@@ -1,0 +1,16 @@
+{
+    "year": 2022,
+    "top_skills": [
+      {"skill_name": "Python", "number_of_professionals": 540},
+      {"skill_name": "JavaScript", "number_of_professionals": 500},
+      {"skill_name": "Java", "number_of_professionals": 460},
+      {"skill_name": "SQL", "number_of_professionals": 450},
+      {"skill_name": "C#", "number_of_professionals": 420},
+      {"skill_name": "Machine Learning", "number_of_professionals": 400},
+      {"skill_name": "Cloud Computing", "number_of_professionals": 380},
+      {"skill_name": "DevOps", "number_of_professionals": 350},
+      {"skill_name": "Cybersecurity", "number_of_professionals": 320},
+      {"skill_name": "Data Analysis", "number_of_professionals": 300}
+    ]
+}
+  
