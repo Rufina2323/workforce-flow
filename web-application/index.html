@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Workforce Flow: Career Transitions in Tech</title>
-    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <title>Workforce Flow: Mapping Job Movements</title>
     <link rel="stylesheet" href="css/styles.css">
+    <script src="https://d3js.org/d3.v7.min.js"></script>
 </head>
 <body>
     <nav class="top-nav">
@@ -13,8 +13,9 @@
             <div class="logo">Workforce Flow</div>
             <div class="nav-links">
                 <a href="#about">About</a>
-                <a href="#insights">Insights</a>
+                <a href="#stats">Stats</a>
                 <a href="#visualization">Visualization</a>
+                <a href="#conclusion">Conclusion</a>
                 <a href="#team">Team</a>
             </div>
         </div>
@@ -22,83 +23,120 @@
 
     <header class="hero">
         <div class="hero-content">
-            <h1>Mapping Career Transitions in Tech</h1>
-            <p class="hero-subtitle">Discover how tech professionals navigate their careers through companies and roles over time</p>
+            <h1>Workforce Flow: Mapping Job Movements Across Companies</h1>
+            <p class="hero-subtitle">Visualizing career transitions in the IT industry over the past decades</p>
         </div>
     </header>
 
     <main>
         <section id="about" class="story-section">
-            <h2>Understanding Career Mobility</h2>
-            <div class="content-grid">
-                <div class="text-content">
-                    <p>Our analysis reveals fascinating patterns in how tech professionals build their careers. Through data from thousands of career paths, we've uncovered insights about job transitions, skill evolution, and industry trends.</p>
-                </div>
-                <div class="stats-overview">
-                    <div class="stat-card">
-                        <h3>Professionals Analyzed</h3>
-                        <p class="stat-number">1,234</p>
-                    </div>
-                    <div class="stat-card">
-                        <h3>Companies Tracked</h3>
-                        <p class="stat-number">56</p>
-                    </div>
-                    <div class="stat-card">
-                        <h3>Average Career Changes</h3>
-                        <p class="stat-number">2.5</p>
-                    </div>
+            <h2>Project Overview</h2>
+            <div class="text-content">
+                <p>The aim of this project is to visualize career transitions in the IT industry over the past decades. By tracking the movement of employees between companies and highlighting different occupations, we want to provide insight into industry trends, labor mobility, and career patterns.</p>
+                <div class="project-goals">
+                    <h3>Key Objectives:</h3>
+                    <ul>
+                        <li>Track frequency of company changes</li>
+                        <li>Analyze industry evolution over time</li>
+                        <li>Identify career centers and stepping stones</li>
+                        <li>Monitor skill popularity trends</li>
+                        <li>Analyze occupational category changes</li>
+                    </ul>
                 </div>
             </div>
         </section>
 
-        <section id="insights" class="story-section">
-            <h2>Key Insights</h2>
-            <div class="insights-grid">
-                <div class="insight-card">
-                    <h3>Career Progression</h3>
-                    <p>Tech professionals typically change companies every 2-3 years, with transitions peaking during economic booms.</p>
+        <section id="stats" class="story-section">
+            <h2>Project Statistics</h2>
+            <div class="stats-cards">
+                <div class="stat-card">
+                    <h3>Total Professionals</h3>
+                    <p class="stat-number">1,234</p>
+                    <p class="stat-description">Tracked careers</p>
                 </div>
-                <div class="insight-card">
-                    <h3>Skill Evolution</h3>
-                    <p>The most adaptable professionals continuously update their skill sets, particularly in emerging technologies.</p>
+                <div class="stat-card">
+                    <h3>Companies</h3>
+                    <p class="stat-number">56</p>
+                    <p class="stat-description">Active organizations</p>
                 </div>
-                <div class="insight-card">
-                    <h3>Industry Trends</h3>
-                    <p>Certain companies serve as launching pads for careers, while others tend to be long-term destinations.</p>
+                <div class="stat-card">
+                    <h3>Average Transitions</h3>
+                    <p class="stat-number">2.5</p>
+                    <p class="stat-description">Career changes</p>
                 </div>
             </div>
         </section>
 
         <section id="visualization" class="story-section">
-            <h2>Interactive Career Flows</h2>
-            <div class="viz-container">
-                <div id="slider-container">
-                    <label for="yearSlider">Explore by Year:</label>
-                    <input type="range" id="yearSlider" min="2017" max="2022" step="1" value="2019">
-                    <span id="yearLabel">2019</span>
+            <h2>Career Flow Analysis</h2>
+            
+            <div class="viz-section">
+                <div class="viz-content">
+                    <div class="text-content">
+                        <h3>Inter-company Transfer Patterns</h3>
+                        <p>Watch how professionals move between companies over time. Each node represents an individual, with colors indicating their current company affiliation. The visualization reveals patterns of career mobility and industry dynamics.</p>
+                        <div class="viz-features">
+                            <div class="feature">
+                                <strong>Node Groups:</strong> Company clusters
+                            </div>
+                            <div class="feature">
+                                <strong>Movement:</strong> Career transitions
+                            </div>
+                            <div class="feature">
+                                <strong>Timeline:</strong> Decade-spanning analysis
+                            </div>
+                        </div>
+                    </div>
+                    <div class="viz-container">
+                        <div id="slider-container">
+                            <label for="yearSlider">Explore Year:</label>
+                            <input type="range" id="yearSlider" min="2017" max="2022" step="1" value="2019">
+                            <span id="yearLabel">2019</span>
+                        </div>
+                        <div class="main-visualization">
+                            <svg id="main-chart"></svg>
+                            <div class="tooltip" id="tooltip"></div>
+                        </div>
+                    </div>
                 </div>
-                <div class="main-visualization">
-                    <svg id="main-chart" width="1120" height="800"></svg>
-                    <div class="tooltip" id="tooltip"></div>
+            </div>
+
+            <!-- First visualization section -->
+            <div class="viz-section">
+                <div class="viz-content">
+                    <div class="viz-container">
+                        <svg id="skills-chart"></svg>
+                    </div>
+                    <div class="text-content-plain">
+                        <h3>Skills Evolution Over Time</h3>
+                        <p>Explore how different skill sets gain and lose prominence throughout careers. This visualization helps identify emerging trends and the evolution of technical requirements in the industry.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Second visualization section -->
+            <div class="viz-section">
+                <div class="viz-content">
+                    <div class="text-content-plain">
+                        <h3>Job Role Distribution</h3>
+                        <p>Analyze the distribution and evolution of different job roles across the tech industry. This visualization reveals how career paths develop and which positions are most prevalent at different career stages.</p>
+                    </div>
+                    <div class="viz-container">
+                        <svg id="roles-chart"></svg>
+                    </div>
                 </div>
             </div>
         </section>
 
-        <section class="secondary-charts story-section">
-            <div class="chart-container">
-                <h2>Evolution of Skills</h2>
-                <p class="chart-description">Track how different skill sets gain and lose prominence over time</p>
-                <svg id="skills-chart" width="520" height="400"></svg>
-            </div>
-            <div class="chart-container">
-                <h2>Role Distribution</h2>
-                <p class="chart-description">Explore the changing landscape of job roles in tech</p>
-                <svg id="roles-chart" width="520" height="400"></svg>
+        <section id="conclusion" class="story-section">
+            <h2>Conclusion</h2>
+            <div class="text-content">
+                <p>Our analysis of career transitions in the IT industry provides valuable insights into the dynamics of the workforce. By understanding these patterns, professionals can make informed decisions about their career paths, and companies can better understand the movement of talent within the industry.</p>
             </div>
         </section>
 
         <section id="team" class="story-section">
-            <h2>Meet the Team</h2>
+            <h2>Team Members</h2>
             <div class="team-grid">
                 <div class="team-member">
                     <h3>Rufina Gafiiatullina</h3>
