@@ -27,7 +27,7 @@ To scrape users' detailed information we found [StaffSpy](https://github.com/cul
 <div style="margin-bottom: 30px;"></div>
 
 
-![Alt text](images/attempt_2.jpeg)
+![Alt text](../images/attempt_2.jpeg)
 
 ### 🕵️‍♀️ Data collection results
 
