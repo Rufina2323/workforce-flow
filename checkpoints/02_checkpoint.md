@@ -6,23 +6,23 @@
 #### User id collection
 1. The proposal for getting access to official LinkedIn API was rejected.
 
- ![Alt text](images/access_rejected.png)
+ ![Alt text](../images/access_rejected.png)
 
 2. The test LinkedIn account used for scraping was blocked.
 
-![Alt text](images/test_blocking.png)
+![Alt text](../images/test_blocking.png)
 
 3. While scrapping user ids using selenium we reached the search limit. 
 
-![Alt text](images/search_limit.jpg)
+![Alt text](../images/search_limit.jpg)
 
 #### User details collection
 
 To scrape users' detailed information we found [StaffSpy](https://github.com/cullenwatson/StaffSpy). It requires LinkedIn account to get the data, therefore created ~ 30 accounts from different VPNs because LinkedIn understood our intentions 😂
 
 <div style="display: flex; gap: 10px;">
-  <img src="images/attempt_1.jpeg" alt="Attempt 1" width="45%">
-  <img src="images/attempt_3.jpeg" alt="Attempt 3" width="45%">
+  <img src="../images/attempt_1.jpeg" alt="Attempt 1" width="45%">
+  <img src="../images/attempt_3.jpeg" alt="Attempt 3" width="45%">
 </div>
 <div style="margin-bottom: 30px;"></div>
 
