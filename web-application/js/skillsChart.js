@@ -15,7 +15,7 @@ export async function createSkillsChart() {
         container.classList.add('initialized');
         container.innerHTML = '';
 
-        const response = await fetch('/data/top_skills.json');
+        const response = await fetch('/data/skills.json');
         const data = await response.json();
         const professions = data.professions;
 
@@ -154,7 +154,7 @@ export async function createSkillsChart() {
                 .attr('class', 'y-axis-label')
                 .attr('transform', 'rotate(-90)')
                 .attr('x', -height / 2)
-                .attr('y', -SKILLS_MARGIN.left + 50)
+                .attr('y', width + 60)
                 .attr('text-anchor', 'middle')
                 .style('fill', TEXT_SECONDARY)
                 .style('font-size', '14px')

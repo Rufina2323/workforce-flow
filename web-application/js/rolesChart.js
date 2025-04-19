@@ -17,8 +17,11 @@ export async function createRolesChart() {
         const response = await fetch('/data/professions.json');
         const data = await response.json();
 
-        const currentYear = 2022;
-        const currentYearData = data.find(d => d.year === currentYear).top_professions;
+        const currentYear = "2025";
+        const currentYearData = Object.entries(data[currentYear]).map(([profession_name, number_of_professionals]) => ({
+            profession_name,
+            number_of_professionals
+        }));
 
         const width = container.clientWidth - ROLES_MARGIN.left - ROLES_MARGIN.right;
         const height = 420;
@@ -40,7 +43,7 @@ export async function createRolesChart() {
             .style('font-family', '"Courier New", Georgia')
             .text('Job Roles Distribution');
 
-        const years = data.map(d => d.year);
+        const years = Object.keys(data).sort();
         const yearSelector = d3.select(container.parentNode)
             .insert('div', ':first-child')
             .attr('class', 'year-selector')
@@ -73,19 +76,11 @@ export async function createRolesChart() {
             .attr('transform', `translate(${width / 2}, ${(height / 2) - 30})`);
 
         const colorScale = d3.scaleOrdinal()
-            .domain(currentYearData.map(d => d.profession_name))
+            .domain(Object.keys(currentYearData.map(d => d.profession_name)))
             .range([
-                '#FFB37F',  
-                '#88E27B',  
-                '#FFF27A',  
-                '#81C7F5', 
-                '#9C97F7', 
-                '#F48484',  
-                '#C6C6C6',  
-                '#F9A1D0', 
-                '#7ED0E7', 
-                '#94E7B6'  
-            ]);            
+                '#FFB37F', '#88E27B', '#FFF27A', '#81C7F5', '#9C97F7',
+                '#F48484', '#C6C6C6', '#F9A1D0', '#7ED0E7', '#94E7B6'
+            ]);
 
         const pie = d3.pie()
             .value(d => d.number_of_professionals)
@@ -100,8 +95,12 @@ export async function createRolesChart() {
             .style('opacity', 0);
 
         function updateChart(year) {
-            const yearData = data.find(d => d.year === +year).top_professions;
-            
+            const yearDataRaw = data[year];
+            const yearData = Object.entries(yearDataRaw).map(([profession_name, number_of_professionals]) => ({
+                profession_name,
+                number_of_professionals
+            }));
+
             const paths = pieGroup.selectAll('path')
                 .data(pie(yearData));
 
@@ -136,10 +135,10 @@ export async function createRolesChart() {
                     tooltip.transition()
                         .duration(200)
                         .style('opacity', 0.9);
-                    
-                    const percentage = ((d.data.number_of_professionals / 
+
+                    const percentage = ((d.data.number_of_professionals /
                         yearData.reduce((acc, curr) => acc + curr.number_of_professionals, 0)) * 100).toFixed(1);
-                    
+
                     tooltip.html(`
                         <strong>${d.data.profession_name}</strong><br/>
                         Professionals: ${d.data.number_of_professionals}<br/>
@@ -177,7 +176,6 @@ export async function createRolesChart() {
             svg.selectAll('.legend').remove();
 
             const legendRectSize = 12;
-            const legendSpacing = 12;
             const legendY = height - 60;
             const itemsPerColumn = 5;
             const columnWidth = width / 2;
@@ -201,13 +199,13 @@ export async function createRolesChart() {
                 });
 
             legendItems.append('rect')
-                .attr('class', 'legend-text-bg')
-                .attr('x', legendRectSize + 8)
-                .attr('y', legendRectSize - 15)
-                .attr('width', 150)
-                .attr('height', 20)
-                .attr('fill', 'white')
-                .style('opacity', 0);
+                .attr('width', legendRectSize)
+                .attr('height', legendRectSize)
+                .attr('rx', 2)
+                .attr('x', 0)
+                .attr('y', 0)
+                .style('fill', d => colorScale(d.profession_name))
+                .style('opacity', 0.85);
 
             legendItems.append('text')
                 .attr('x', legendRectSize + 8)
@@ -216,59 +214,44 @@ export async function createRolesChart() {
                 .style('font-family', '"Roboto Mono", monospace')
                 .style('font-size', '12px')
                 .style('font-weight', '600')
-                .style('fill', TEXT_SECONDARY)
-                .style('pointer-events', 'none')
-                .style('z-index', 1);
+                .style('fill', TEXT_SECONDARY);
 
-            legendItems.append('rect')
-                .attr('class', 'legend-color')
-                .attr('width', legendRectSize)
-                .attr('height', legendRectSize)
-                .attr('rx', 2)
-                .attr('x', 0)
-                .attr('y', 0)
-                .style('fill', d => colorScale(d.profession_name))
-                .style('opacity', 0.85)
-                .style('z-index', 2);
+            legendItems.on('mouseover', function(event, d) {
+                const segment = pieGroup.selectAll('path')
+                    .filter(p => p.data.profession_name === d.profession_name);
 
-            legendItems.style('cursor', 'pointer')
-                .on('mouseover', function(event, d) {
-                    const segment = pieGroup.selectAll('path')
-                        .filter(p => p.data.profession_name === d.profession_name);
-                    
-                    segment.transition()
-                        .duration(200)
-                        .attr('transform', function(p) {
-                            const centroid = arc.centroid(p);
-                            return `translate(${centroid[0] * 0.05},${centroid[1] * 0.05})`;
-                        });
-                    
-                    const percentage = ((d.number_of_professionals / 
-                        yearData.reduce((acc, curr) => acc + curr.number_of_professionals, 0)) * 100).toFixed(1);
-                    
-                    tooltip.transition()
-                        .duration(200)
-                        .style('opacity', 0.9);
-                    
-                    tooltip.html(`
-                        <strong>${d.profession_name}</strong><br/>
-                        Professionals: ${d.number_of_professionals}<br/>
-                        Share: ${percentage}%
-                    `)
-                    .style('left', (event.pageX + 10) + 'px')
-                    .style('top', (event.pageY - 28) + 'px');
-                })
-                .on('mouseout', function(event, d) {
-                    pieGroup.selectAll('path')
-                        .filter(p => p.data.profession_name === d.profession_name)
-                        .transition()
-                        .duration(200)
-                        .attr('transform', 'translate(0,0)');
-                    
-                    tooltip.transition()
-                        .duration(500)
-                        .style('opacity', 0);
-                });
+                segment.transition()
+                    .duration(200)
+                    .attr('transform', function(p) {
+                        const centroid = arc.centroid(p);
+                        return `translate(${centroid[0] * 0.05},${centroid[1] * 0.05})`;
+                    });
+
+                const percentage = ((d.number_of_professionals /
+                    yearData.reduce((acc, curr) => acc + curr.number_of_professionals, 0)) * 100).toFixed(1);
+
+                tooltip.transition()
+                    .duration(200)
+                    .style('opacity', 0.9);
+
+                tooltip.html(`
+                    <strong>${d.profession_name}</strong><br/>
+                    Professionals: ${d.number_of_professionals}<br/>
+                    Share: ${percentage}%
+                `)
+                .style('left', (event.pageX + 10) + 'px')
+                .style('top', (event.pageY - 28) + 'px');
+            }).on('mouseout', function(event, d) {
+                pieGroup.selectAll('path')
+                    .filter(p => p.data.profession_name === d.profession_name)
+                    .transition()
+                    .duration(200)
+                    .attr('transform', 'translate(0,0)');
+
+                tooltip.transition()
+                    .duration(500)
+                    .style('opacity', 0);
+            });
         }
 
         updateChart(currentYear);
