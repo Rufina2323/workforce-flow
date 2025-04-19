@@ -1,0 +1,3472 @@
+[
+  {
+    "pid": 1,
+    "grp": "Yandex",
+    "duration": 13
+  },
+  {
+    "pid": 1,
+    "grp": "VK",
+    "duration": -99
+  },
+  {
+    "pid": 2,
+    "grp": "Kaspersky",
+    "duration": 8
+  },
+  {
+    "pid": 2,
+    "grp": "Kaspersky",
+    "duration": 24
+  },
+  {
+    "pid": 2,
+    "grp": "Other Russian",
+    "duration": -99
+  },
+  {
+    "pid": 3,
+    "grp": "Yandex",
+    "duration": 28
+  },
+  {
+    "pid": 3,
+    "grp": "Sberbank",
+    "duration": 26
+  },
+  {
+    "pid": 3,
+    "grp": "Tinkoff",
+    "duration": 28
+  },
+  {
+    "pid": 3,
+    "grp": "Mail.ru",
+    "duration": 23
+  },
+  {
+    "pid": 3,
+    "grp": "Rostelecom",
+    "duration": -99
+  },
+  {
+    "pid": 4,
+    "grp": "Tinkoff",
+    "duration": 28
+  },
+  {
+    "pid": 4,
+    "grp": "Mail.ru",
+    "duration": 19
+  },
+  {
+    "pid": 4,
+    "grp": "Alfa-Bank",
+    "duration": 16
+  },
+  {
+    "pid": 4,
+    "grp": "Yandex",
+    "duration": 14
+  },
+  {
+    "pid": 4,
+    "grp": "Alfa-Bank",
+    "duration": -99
+  },
+  {
+    "pid": 5,
+    "grp": "Tinkoff",
+    "duration": 18
+  },
+  {
+    "pid": 5,
+    "grp": "Alfa-Bank",
+    "duration": 9
+  },
+  {
+    "pid": 5,
+    "grp": "Sberbank",
+    "duration": -99
+  },
+  {
+    "pid": 6,
+    "grp": "Other Russian",
+    "duration": 23
+  },
+  {
+    "pid": 6,
+    "grp": "Mail.ru",
+    "duration": 9
+  },
+  {
+    "pid": 6,
+    "grp": "Alfa-Bank",
+    "duration": 35
+  },
+  {
+    "pid": 6,
+    "grp": "Kaspersky",
+    "duration": -99
+  },
+  {
+    "pid": 7,
+    "grp": "Yandex",
+    "duration": 12
+  },
+  {
+    "pid": 7,
+    "grp": "VK",
+    "duration": 28
+  },
+  {
+    "pid": 7,
+    "grp": "Mail.ru",
+    "duration": 8
+  },
+  {
+    "pid": 7,
+    "grp": "Other Russian",
+    "duration": 7
+  },
+  {
+    "pid": 7,
+    "grp": "Gazprom",
+    "duration": -99
+  },
+  {
+    "pid": 8,
+    "grp": "Alfa-Bank",
+    "duration": 33
+  },
+  {
+    "pid": 8,
+    "grp": "Other Foreign",
+    "duration": 9
+  },
+  {
+    "pid": 8,
+    "grp": "Other Russian",
+    "duration": -99
+  },
+  {
+    "pid": 9,
+    "grp": "VK",
+    "duration": 14
+  },
+  {
+    "pid": 9,
+    "grp": "Mail.ru",
+    "duration": 28
+  },
+  {
+    "pid": 9,
+    "grp": "Gazprom",
+    "duration": 35
+  },
+  {
+    "pid": 9,
+    "grp": "Gazprom",
+    "duration": 27
+  },
+  {
+    "pid": 9,
+    "grp": "Tinkoff",
+    "duration": -99
+  },
+  {
+    "pid": 10,
+    "grp": "Mail.ru",
+    "duration": 29
+  },
+  {
+    "pid": 10,
+    "grp": "Tinkoff",
+    "duration": -99
+  },
+  {
+    "pid": 11,
+    "grp": "Sberbank",
+    "duration": 26
+  },
+  {
+    "pid": 11,
+    "grp": "Gazprom",
+    "duration": 28
+  },
+  {
+    "pid": 11,
+    "grp": "Other Foreign",
+    "duration": -99
+  },
+  {
+    "pid": 12,
+    "grp": "Kaspersky",
+    "duration": 13
+  },
+  {
+    "pid": 12,
+    "grp": "Other Russian",
+    "duration": 32
+  },
+  {
+    "pid": 12,
+    "grp": "Alfa-Bank",
+    "duration": -99
+  },
+  {
+    "pid": 13,
+    "grp": "Alfa-Bank",
+    "duration": 8
+  },
+  {
+    "pid": 13,
+    "grp": "Gazprom",
+    "duration": -99
+  },
+  {
+    "pid": 14,
+    "grp": "Other Russian",
+    "duration": 12
+  },
+  {
+    "pid": 14,
+    "grp": "Rostelecom",
+    "duration": 26
+  },
+  {
+    "pid": 14,
+    "grp": "Kaspersky",
+    "duration": -99
+  },
+  {
+    "pid": 15,
+    "grp": "Gazprom",
+    "duration": 23
+  },
+  {
+    "pid": 15,
+    "grp": "Other Russian",
+    "duration": 23
+  },
+  {
+    "pid": 15,
+    "grp": "Rosatom",
+    "duration": 14
+  },
+  {
+    "pid": 15,
+    "grp": "VK",
+    "duration": 29
+  },
+  {
+    "pid": 15,
+    "grp": "Tinkoff",
+    "duration": -99
+  },
+  {
+    "pid": 16,
+    "grp": "Other Russian",
+    "duration": 8
+  },
+  {
+    "pid": 16,
+    "grp": "Gazprom",
+    "duration": 30
+  },
+  {
+    "pid": 16,
+    "grp": "Tinkoff",
+    "duration": 7
+  },
+  {
+    "pid": 16,
+    "grp": "Other Foreign",
+    "duration": 33
+  },
+  {
+    "pid": 16,
+    "grp": "Rostelecom",
+    "duration": -99
+  },
+  {
+    "pid": 17,
+    "grp": "Sberbank",
+    "duration": 27
+  },
+  {
+    "pid": 17,
+    "grp": "Sberbank",
+    "duration": -99
+  },
+  {
+    "pid": 18,
+    "grp": "Mail.ru",
+    "duration": 23
+  },
+  {
+    "pid": 18,
+    "grp": "Gazprom",
+    "duration": 33
+  },
+  {
+    "pid": 18,
+    "grp": "Mail.ru",
+    "duration": 36
+  },
+  {
+    "pid": 18,
+    "grp": "Rosatom",
+    "duration": 6
+  },
+  {
+    "pid": 18,
+    "grp": "VK",
+    "duration": -99
+  },
+  {
+    "pid": 19,
+    "grp": "Kaspersky",
+    "duration": 14
+  },
+  {
+    "pid": 19,
+    "grp": "Rostelecom",
+    "duration": -99
+  },
+  {
+    "pid": 20,
+    "grp": "Sberbank",
+    "duration": 34
+  },
+  {
+    "pid": 20,
+    "grp": "Rosatom",
+    "duration": 29
+  },
+  {
+    "pid": 20,
+    "grp": "Rosatom",
+    "duration": 14
+  },
+  {
+    "pid": 20,
+    "grp": "Other Foreign",
+    "duration": -99
+  },
+  {
+    "pid": 21,
+    "grp": "Rostelecom",
+    "duration": 32
+  },
+  {
+    "pid": 21,
+    "grp": "Sberbank",
+    "duration": 26
+  },
+  {
+    "pid": 21,
+    "grp": "Mail.ru",
+    "duration": -99
+  },
+  {
+    "pid": 22,
+    "grp": "Sberbank",
+    "duration": 30
+  },
+  {
+    "pid": 22,
+    "grp": "Alfa-Bank",
+    "duration": 35
+  },
+  {
+    "pid": 22,
+    "grp": "Rostelecom",
+    "duration": -99
+  },
+  {
+    "pid": 23,
+    "grp": "Mail.ru",
+    "duration": 9
+  },
+  {
+    "pid": 23,
+    "grp": "Rosatom",
+    "duration": -99
+  },
+  {
+    "pid": 24,
+    "grp": "Other Russian",
+    "duration": 34
+  },
+  {
+    "pid": 24,
+    "grp": "Alfa-Bank",
+    "duration": 24
+  },
+  {
+    "pid": 24,
+    "grp": "VK",
+    "duration": 36
+  },
+  {
+    "pid": 24,
+    "grp": "Yandex",
+    "duration": -99
+  },
+  {
+    "pid": 25,
+    "grp": "Sberbank",
+    "duration": 8
+  },
+  {
+    "pid": 25,
+    "grp": "Rosatom",
+    "duration": -99
+  },
+  {
+    "pid": 26,
+    "grp": "Sberbank",
+    "duration": 14
+  },
+  {
+    "pid": 26,
+    "grp": "Rosatom",
+    "duration": 22
+  },
+  {
+    "pid": 26,
+    "grp": "Rostelecom",
+    "duration": -99
+  },
+  {
+    "pid": 27,
+    "grp": "Other Foreign",
+    "duration": 18
+  },
+  {
+    "pid": 27,
+    "grp": "Other Foreign",
+    "duration": 27
+  },
+  {
+    "pid": 27,
+    "grp": "Alfa-Bank",
+    "duration": 26
+  },
+  {
+    "pid": 27,
+    "grp": "Kaspersky",
+    "duration": 17
+  },
+  {
+    "pid": 27,
+    "grp": "Kaspersky",
+    "duration": -99
+  },
+  {
+    "pid": 28,
+    "grp": "Other Russian",
+    "duration": 23
+  },
+  {
+    "pid": 28,
+    "grp": "Rosatom",
+    "duration": 13
+  },
+  {
+    "pid": 28,
+    "grp": "Tinkoff",
+    "duration": 24
+  },
+  {
+    "pid": 28,
+    "grp": "Yandex",
+    "duration": 13
+  },
+  {
+    "pid": 28,
+    "grp": "Yandex",
+    "duration": -99
+  },
+  {
+    "pid": 29,
+    "grp": "Yandex",
+    "duration": 13
+  },
+  {
+    "pid": 29,
+    "grp": "Mail.ru",
+    "duration": -99
+  },
+  {
+    "pid": 30,
+    "grp": "Other Russian",
+    "duration": 8
+  },
+  {
+    "pid": 30,
+    "grp": "Other Russian",
+    "duration": -99
+  },
+  {
+    "pid": 31,
+    "grp": "VK",
+    "duration": 29
+  },
+  {
+    "pid": 31,
+    "grp": "Rosatom",
+    "duration": 35
+  },
+  {
+    "pid": 31,
+    "grp": "Rostelecom",
+    "duration": -99
+  },
+  {
+    "pid": 32,
+    "grp": "Tinkoff",
+    "duration": 17
+  },
+  {
+    "pid": 32,
+    "grp": "Rosatom",
+    "duration": 19
+  },
+  {
+    "pid": 32,
+    "grp": "Gazprom",
+    "duration": 19
+  },
+  {
+    "pid": 32,
+    "grp": "Sberbank",
+    "duration": 20
+  },
+  {
+    "pid": 32,
+    "grp": "Mail.ru",
+    "duration": -99
+  },
+  {
+    "pid": 33,
+    "grp": "Kaspersky",
+    "duration": 9
+  },
+  {
+    "pid": 33,
+    "grp": "Other Foreign",
+    "duration": -99
+  },
+  {
+    "pid": 34,
+    "grp": "Gazprom",
+    "duration": 33
+  },
+  {
+    "pid": 34,
+    "grp": "Gazprom",
+    "duration": -99
+  },
+  {
+    "pid": 35,
+    "grp": "Tinkoff",
+    "duration": 20
+  },
+  {
+    "pid": 35,
+    "grp": "Tinkoff",
+    "duration": -99
+  },
+  {
+    "pid": 36,
+    "grp": "Rosatom",
+    "duration": 35
+  },
+  {
+    "pid": 36,
+    "grp": "VK",
+    "duration": 8
+  },
+  {
+    "pid": 36,
+    "grp": "Tinkoff",
+    "duration": -99
+  },
+  {
+    "pid": 37,
+    "grp": "Alfa-Bank",
+    "duration": 6
+  },
+  {
+    "pid": 37,
+    "grp": "Other Russian",
+    "duration": 8
+  },
+  {
+    "pid": 37,
+    "grp": "Sberbank",
+    "duration": 35
+  },
+  {
+    "pid": 37,
+    "grp": "Mail.ru",
+    "duration": 30
+  },
+  {
+    "pid": 37,
+    "grp": "Rostelecom",
+    "duration": -99
+  },
+  {
+    "pid": 38,
+    "grp": "Sberbank",
+    "duration": 18
+  },
+  {
+    "pid": 38,
+    "grp": "Rosatom",
+    "duration": 34
+  },
+  {
+    "pid": 38,
+    "grp": "Tinkoff",
+    "duration": -99
+  },
+  {
+    "pid": 39,
+    "grp": "Sberbank",
+    "duration": 18
+  },
+  {
+    "pid": 39,
+    "grp": "Yandex",
+    "duration": -99
+  },
+  {
+    "pid": 40,
+    "grp": "Other Foreign",
+    "duration": 29
+  },
+  {
+    "pid": 40,
+    "grp": "Alfa-Bank",
+    "duration": 31
+  },
+  {
+    "pid": 40,
+    "grp": "VK",
+    "duration": 23
+  },
+  {
+    "pid": 40,
+    "grp": "Kaspersky",
+    "duration": -99
+  },
+  {
+    "pid": 41,
+    "grp": "Sberbank",
+    "duration": 29
+  },
+  {
+    "pid": 41,
+    "grp": "VK",
+    "duration": 16
+  },
+  {
+    "pid": 41,
+    "grp": "Other Foreign",
+    "duration": 7
+  },
+  {
+    "pid": 41,
+    "grp": "Rostelecom",
+    "duration": 7
+  },
+  {
+    "pid": 41,
+    "grp": "Rostelecom",
+    "duration": -99
+  },
+  {
+    "pid": 42,
+    "grp": "Rostelecom",
+    "duration": 11
+  },
+  {
+    "pid": 42,
+    "grp": "Other Russian",
+    "duration": 8
+  },
+  {
+    "pid": 42,
+    "grp": "Sberbank",
+    "duration": 25
+  },
+  {
+    "pid": 42,
+    "grp": "Other Foreign",
+    "duration": 8
+  },
+  {
+    "pid": 42,
+    "grp": "Yandex",
+    "duration": -99
+  },
+  {
+    "pid": 43,
+    "grp": "Gazprom",
+    "duration": 24
+  },
+  {
+    "pid": 43,
+    "grp": "Other Foreign",
+    "duration": 25
+  },
+  {
+    "pid": 43,
+    "grp": "Rostelecom",
+    "duration": -99
+  },
+  {
+    "pid": 44,
+    "grp": "Mail.ru",
+    "duration": 24
+  },
+  {
+    "pid": 44,
+    "grp": "Rosatom",
+    "duration": -99
+  },
+  {
+    "pid": 45,
+    "grp": "Other Foreign",
+    "duration": 18
+  },
+  {
+    "pid": 45,
+    "grp": "Tinkoff",
+    "duration": 10
+  },
+  {
+    "pid": 45,
+    "grp": "Kaspersky",
+    "duration": 27
+  },
+  {
+    "pid": 45,
+    "grp": "Tinkoff",
+    "duration": -99
+  },
+  {
+    "pid": 46,
+    "grp": "Rosatom",
+    "duration": 25
+  },
+  {
+    "pid": 46,
+    "grp": "Other Foreign",
+    "duration": 24
+  },
+  {
+    "pid": 46,
+    "grp": "Other Foreign",
+    "duration": 9
+  },
+  {
+    "pid": 46,
+    "grp": "Yandex",
+    "duration": -99
+  },
+  {
+    "pid": 47,
+    "grp": "Rostelecom",
+    "duration": 10
+  },
+  {
+    "pid": 47,
+    "grp": "Rostelecom",
+    "duration": -99
+  },
+  {
+    "pid": 48,
+    "grp": "Other Russian",
+    "duration": 32
+  },
+  {
+    "pid": 48,
+    "grp": "Other Russian",
+    "duration": 23
+  },
+  {
+    "pid": 48,
+    "grp": "Gazprom",
+    "duration": 28
+  },
+  {
+    "pid": 48,
+    "grp": "Sberbank",
+    "duration": -99
+  },
+  {
+    "pid": 49,
+    "grp": "Mail.ru",
+    "duration": 32
+  },
+  {
+    "pid": 49,
+    "grp": "Other Foreign",
+    "duration": 23
+  },
+  {
+    "pid": 49,
+    "grp": "Mail.ru",
+    "duration": 15
+  },
+  {
+    "pid": 49,
+    "grp": "Yandex",
+    "duration": -99
+  },
+  {
+    "pid": 50,
+    "grp": "Other Foreign",
+    "duration": 9
+  },
+  {
+    "pid": 50,
+    "grp": "Sberbank",
+    "duration": -99
+  },
+  {
+    "pid": 51,
+    "grp": "Kaspersky",
+    "duration": 15
+  },
+  {
+    "pid": 51,
+    "grp": "Sberbank",
+    "duration": -99
+  },
+  {
+    "pid": 52,
+    "grp": "Kaspersky",
+    "duration": 14
+  },
+  {
+    "pid": 52,
+    "grp": "Tinkoff",
+    "duration": 22
+  },
+  {
+    "pid": 52,
+    "grp": "Mail.ru",
+    "duration": -99
+  },
+  {
+    "pid": 53,
+    "grp": "VK",
+    "duration": 7
+  },
+  {
+    "pid": 53,
+    "grp": "Other Russian",
+    "duration": 6
+  },
+  {
+    "pid": 53,
+    "grp": "Yandex",
+    "duration": 16
+  },
+  {
+    "pid": 53,
+    "grp": "Mail.ru",
+    "duration": 30
+  },
+  {
+    "pid": 53,
+    "grp": "Alfa-Bank",
+    "duration": -99
+  },
+  {
+    "pid": 54,
+    "grp": "Mail.ru",
+    "duration": 23
+  },
+  {
+    "pid": 54,
+    "grp": "VK",
+    "duration": 28
+  },
+  {
+    "pid": 54,
+    "grp": "Kaspersky",
+    "duration": -99
+  },
+  {
+    "pid": 55,
+    "grp": "Rostelecom",
+    "duration": 7
+  },
+  {
+    "pid": 55,
+    "grp": "Sberbank",
+    "duration": 32
+  },
+  {
+    "pid": 55,
+    "grp": "Other Foreign",
+    "duration": 17
+  },
+  {
+    "pid": 55,
+    "grp": "Kaspersky",
+    "duration": 24
+  },
+  {
+    "pid": 55,
+    "grp": "Sberbank",
+    "duration": -99
+  },
+  {
+    "pid": 56,
+    "grp": "Rosatom",
+    "duration": 35
+  },
+  {
+    "pid": 56,
+    "grp": "Yandex",
+    "duration": 31
+  },
+  {
+    "pid": 56,
+    "grp": "Gazprom",
+    "duration": -99
+  },
+  {
+    "pid": 57,
+    "grp": "Other Russian",
+    "duration": 13
+  },
+  {
+    "pid": 57,
+    "grp": "Tinkoff",
+    "duration": -99
+  },
+  {
+    "pid": 58,
+    "grp": "Gazprom",
+    "duration": 33
+  },
+  {
+    "pid": 58,
+    "grp": "Rostelecom",
+    "duration": -99
+  },
+  {
+    "pid": 59,
+    "grp": "Other Foreign",
+    "duration": 31
+  },
+  {
+    "pid": 59,
+    "grp": "Kaspersky",
+    "duration": 31
+  },
+  {
+    "pid": 59,
+    "grp": "Other Foreign",
+    "duration": 11
+  },
+  {
+    "pid": 59,
+    "grp": "Tinkoff",
+    "duration": 34
+  },
+  {
+    "pid": 59,
+    "grp": "Sberbank",
+    "duration": -99
+  },
+  {
+    "pid": 60,
+    "grp": "Yandex",
+    "duration": 33
+  },
+  {
+    "pid": 60,
+    "grp": "Kaspersky",
+    "duration": 29
+  },
+  {
+    "pid": 60,
+    "grp": "VK",
+    "duration": 31
+  },
+  {
+    "pid": 60,
+    "grp": "Other Foreign",
+    "duration": 13
+  },
+  {
+    "pid": 60,
+    "grp": "Alfa-Bank",
+    "duration": -99
+  },
+  {
+    "pid": 61,
+    "grp": "Sberbank",
+    "duration": 21
+  },
+  {
+    "pid": 61,
+    "grp": "Kaspersky",
+    "duration": 13
+  },
+  {
+    "pid": 61,
+    "grp": "Gazprom",
+    "duration": 12
+  },
+  {
+    "pid": 61,
+    "grp": "Yandex",
+    "duration": -99
+  },
+  {
+    "pid": 62,
+    "grp": "Gazprom",
+    "duration": 18
+  },
+  {
+    "pid": 62,
+    "grp": "Alfa-Bank",
+    "duration": 16
+  },
+  {
+    "pid": 62,
+    "grp": "Other Russian",
+    "duration": 14
+  },
+  {
+    "pid": 62,
+    "grp": "Tinkoff",
+    "duration": 33
+  },
+  {
+    "pid": 62,
+    "grp": "Mail.ru",
+    "duration": -99
+  },
+  {
+    "pid": 63,
+    "grp": "Other Foreign",
+    "duration": 26
+  },
+  {
+    "pid": 63,
+    "grp": "VK",
+    "duration": -99
+  },
+  {
+    "pid": 64,
+    "grp": "Kaspersky",
+    "duration": 14
+  },
+  {
+    "pid": 64,
+    "grp": "Other Russian",
+    "duration": 11
+  },
+  {
+    "pid": 64,
+    "grp": "VK",
+    "duration": 24
+  },
+  {
+    "pid": 64,
+    "grp": "Yandex",
+    "duration": 36
+  },
+  {
+    "pid": 64,
+    "grp": "Other Russian",
+    "duration": -99
+  },
+  {
+    "pid": 65,
+    "grp": "Yandex",
+    "duration": 19
+  },
+  {
+    "pid": 65,
+    "grp": "Mail.ru",
+    "duration": 25
+  },
+  {
+    "pid": 65,
+    "grp": "Gazprom",
+    "duration": 22
+  },
+  {
+    "pid": 65,
+    "grp": "Alfa-Bank",
+    "duration": -99
+  },
+  {
+    "pid": 66,
+    "grp": "Gazprom",
+    "duration": 14
+  },
+  {
+    "pid": 66,
+    "grp": "Rostelecom",
+    "duration": -99
+  },
+  {
+    "pid": 67,
+    "grp": "Kaspersky",
+    "duration": 35
+  },
+  {
+    "pid": 67,
+    "grp": "Yandex",
+    "duration": -99
+  },
+  {
+    "pid": 68,
+    "grp": "Gazprom",
+    "duration": 16
+  },
+  {
+    "pid": 68,
+    "grp": "Yandex",
+    "duration": 25
+  },
+  {
+    "pid": 68,
+    "grp": "Mail.ru",
+    "duration": -99
+  },
+  {
+    "pid": 69,
+    "grp": "Mail.ru",
+    "duration": 27
+  },
+  {
+    "pid": 69,
+    "grp": "Sberbank",
+    "duration": 19
+  },
+  {
+    "pid": 69,
+    "grp": "Other Russian",
+    "duration": 16
+  },
+  {
+    "pid": 69,
+    "grp": "Rostelecom",
+    "duration": -99
+  },
+  {
+    "pid": 70,
+    "grp": "Kaspersky",
+    "duration": 29
+  },
+  {
+    "pid": 70,
+    "grp": "Rostelecom",
+    "duration": 34
+  },
+  {
+    "pid": 70,
+    "grp": "Tinkoff",
+    "duration": 11
+  },
+  {
+    "pid": 70,
+    "grp": "Mail.ru",
+    "duration": 25
+  },
+  {
+    "pid": 70,
+    "grp": "Gazprom",
+    "duration": -99
+  },
+  {
+    "pid": 71,
+    "grp": "Gazprom",
+    "duration": 31
+  },
+  {
+    "pid": 71,
+    "grp": "Other Russian",
+    "duration": 24
+  },
+  {
+    "pid": 71,
+    "grp": "VK",
+    "duration": 25
+  },
+  {
+    "pid": 71,
+    "grp": "Tinkoff",
+    "duration": -99
+  },
+  {
+    "pid": 72,
+    "grp": "Rosatom",
+    "duration": 34
+  },
+  {
+    "pid": 72,
+    "grp": "Rosatom",
+    "duration": 36
+  },
+  {
+    "pid": 72,
+    "grp": "Tinkoff",
+    "duration": 31
+  },
+  {
+    "pid": 72,
+    "grp": "Rosatom",
+    "duration": -99
+  },
+  {
+    "pid": 73,
+    "grp": "Mail.ru",
+    "duration": 25
+  },
+  {
+    "pid": 73,
+    "grp": "VK",
+    "duration": 16
+  },
+  {
+    "pid": 73,
+    "grp": "Mail.ru",
+    "duration": -99
+  },
+  {
+    "pid": 74,
+    "grp": "Alfa-Bank",
+    "duration": 27
+  },
+  {
+    "pid": 74,
+    "grp": "Alfa-Bank",
+    "duration": -99
+  },
+  {
+    "pid": 75,
+    "grp": "Tinkoff",
+    "duration": 21
+  },
+  {
+    "pid": 75,
+    "grp": "Tinkoff",
+    "duration": 25
+  },
+  {
+    "pid": 75,
+    "grp": "Yandex",
+    "duration": 33
+  },
+  {
+    "pid": 75,
+    "grp": "Tinkoff",
+    "duration": -99
+  },
+  {
+    "pid": 76,
+    "grp": "Rosatom",
+    "duration": 24
+  },
+  {
+    "pid": 76,
+    "grp": "Other Russian",
+    "duration": -99
+  },
+  {
+    "pid": 77,
+    "grp": "Kaspersky",
+    "duration": 10
+  },
+  {
+    "pid": 77,
+    "grp": "Gazprom",
+    "duration": 26
+  },
+  {
+    "pid": 77,
+    "grp": "Gazprom",
+    "duration": -99
+  },
+  {
+    "pid": 78,
+    "grp": "Other Russian",
+    "duration": 34
+  },
+  {
+    "pid": 78,
+    "grp": "Other Russian",
+    "duration": -99
+  },
+  {
+    "pid": 79,
+    "grp": "Alfa-Bank",
+    "duration": 31
+  },
+  {
+    "pid": 79,
+    "grp": "Tinkoff",
+    "duration": -99
+  },
+  {
+    "pid": 80,
+    "grp": "Yandex",
+    "duration": 27
+  },
+  {
+    "pid": 80,
+    "grp": "Tinkoff",
+    "duration": 22
+  },
+  {
+    "pid": 80,
+    "grp": "Other Russian",
+    "duration": 23
+  },
+  {
+    "pid": 80,
+    "grp": "Rosatom",
+    "duration": 25
+  },
+  {
+    "pid": 80,
+    "grp": "Alfa-Bank",
+    "duration": -99
+  },
+  {
+    "pid": 81,
+    "grp": "Other Foreign",
+    "duration": 22
+  },
+  {
+    "pid": 81,
+    "grp": "Other Russian",
+    "duration": 19
+  },
+  {
+    "pid": 81,
+    "grp": "Mail.ru",
+    "duration": 32
+  },
+  {
+    "pid": 81,
+    "grp": "Kaspersky",
+    "duration": -99
+  },
+  {
+    "pid": 82,
+    "grp": "Other Russian",
+    "duration": 26
+  },
+  {
+    "pid": 82,
+    "grp": "Kaspersky",
+    "duration": 14
+  },
+  {
+    "pid": 82,
+    "grp": "Rosatom",
+    "duration": 30
+  },
+  {
+    "pid": 82,
+    "grp": "VK",
+    "duration": 30
+  },
+  {
+    "pid": 82,
+    "grp": "Tinkoff",
+    "duration": -99
+  },
+  {
+    "pid": 83,
+    "grp": "Mail.ru",
+    "duration": 16
+  },
+  {
+    "pid": 83,
+    "grp": "VK",
+    "duration": 34
+  },
+  {
+    "pid": 83,
+    "grp": "Yandex",
+    "duration": 23
+  },
+  {
+    "pid": 83,
+    "grp": "VK",
+    "duration": 8
+  },
+  {
+    "pid": 83,
+    "grp": "VK",
+    "duration": -99
+  },
+  {
+    "pid": 84,
+    "grp": "Sberbank",
+    "duration": 12
+  },
+  {
+    "pid": 84,
+    "grp": "Gazprom",
+    "duration": 8
+  },
+  {
+    "pid": 84,
+    "grp": "Sberbank",
+    "duration": -99
+  },
+  {
+    "pid": 85,
+    "grp": "Gazprom",
+    "duration": 34
+  },
+  {
+    "pid": 85,
+    "grp": "Rostelecom",
+    "duration": 30
+  },
+  {
+    "pid": 85,
+    "grp": "Gazprom",
+    "duration": 24
+  },
+  {
+    "pid": 85,
+    "grp": "Tinkoff",
+    "duration": 36
+  },
+  {
+    "pid": 85,
+    "grp": "Rosatom",
+    "duration": -99
+  },
+  {
+    "pid": 86,
+    "grp": "Other Russian",
+    "duration": 18
+  },
+  {
+    "pid": 86,
+    "grp": "Alfa-Bank",
+    "duration": -99
+  },
+  {
+    "pid": 87,
+    "grp": "Yandex",
+    "duration": 19
+  },
+  {
+    "pid": 87,
+    "grp": "Gazprom",
+    "duration": 23
+  },
+  {
+    "pid": 87,
+    "grp": "Alfa-Bank",
+    "duration": 29
+  },
+  {
+    "pid": 87,
+    "grp": "Other Russian",
+    "duration": 29
+  },
+  {
+    "pid": 87,
+    "grp": "Other Foreign",
+    "duration": -99
+  },
+  {
+    "pid": 88,
+    "grp": "Rosatom",
+    "duration": 18
+  },
+  {
+    "pid": 88,
+    "grp": "VK",
+    "duration": 16
+  },
+  {
+    "pid": 88,
+    "grp": "Rosatom",
+    "duration": -99
+  },
+  {
+    "pid": 89,
+    "grp": "Kaspersky",
+    "duration": 35
+  },
+  {
+    "pid": 89,
+    "grp": "Other Russian",
+    "duration": 18
+  },
+  {
+    "pid": 89,
+    "grp": "Other Foreign",
+    "duration": 24
+  },
+  {
+    "pid": 89,
+    "grp": "Other Foreign",
+    "duration": 24
+  },
+  {
+    "pid": 89,
+    "grp": "Rostelecom",
+    "duration": -99
+  },
+  {
+    "pid": 90,
+    "grp": "Sberbank",
+    "duration": 33
+  },
+  {
+    "pid": 90,
+    "grp": "Rosatom",
+    "duration": -99
+  },
+  {
+    "pid": 91,
+    "grp": "Tinkoff",
+    "duration": 34
+  },
+  {
+    "pid": 91,
+    "grp": "VK",
+    "duration": 18
+  },
+  {
+    "pid": 91,
+    "grp": "VK",
+    "duration": 14
+  },
+  {
+    "pid": 91,
+    "grp": "Rosatom",
+    "duration": 30
+  },
+  {
+    "pid": 91,
+    "grp": "Gazprom",
+    "duration": -99
+  },
+  {
+    "pid": 92,
+    "grp": "VK",
+    "duration": 17
+  },
+  {
+    "pid": 92,
+    "grp": "Yandex",
+    "duration": 13
+  },
+  {
+    "pid": 92,
+    "grp": "Yandex",
+    "duration": 26
+  },
+  {
+    "pid": 92,
+    "grp": "Rostelecom",
+    "duration": 8
+  },
+  {
+    "pid": 92,
+    "grp": "Other Foreign",
+    "duration": -99
+  },
+  {
+    "pid": 93,
+    "grp": "Alfa-Bank",
+    "duration": 12
+  },
+  {
+    "pid": 93,
+    "grp": "Other Foreign",
+    "duration": -99
+  },
+  {
+    "pid": 94,
+    "grp": "Mail.ru",
+    "duration": 21
+  },
+  {
+    "pid": 94,
+    "grp": "Tinkoff",
+    "duration": -99
+  },
+  {
+    "pid": 95,
+    "grp": "Rostelecom",
+    "duration": 28
+  },
+  {
+    "pid": 95,
+    "grp": "Tinkoff",
+    "duration": -99
+  },
+  {
+    "pid": 96,
+    "grp": "Alfa-Bank",
+    "duration": 9
+  },
+  {
+    "pid": 96,
+    "grp": "Tinkoff",
+    "duration": 30
+  },
+  {
+    "pid": 96,
+    "grp": "Mail.ru",
+    "duration": 32
+  },
+  {
+    "pid": 96,
+    "grp": "Kaspersky",
+    "duration": -99
+  },
+  {
+    "pid": 97,
+    "grp": "Other Foreign",
+    "duration": 15
+  },
+  {
+    "pid": 97,
+    "grp": "Sberbank",
+    "duration": 24
+  },
+  {
+    "pid": 97,
+    "grp": "Yandex",
+    "duration": -99
+  },
+  {
+    "pid": 98,
+    "grp": "Gazprom",
+    "duration": 9
+  },
+  {
+    "pid": 98,
+    "grp": "Kaspersky",
+    "duration": 28
+  },
+  {
+    "pid": 98,
+    "grp": "Yandex",
+    "duration": 30
+  },
+  {
+    "pid": 98,
+    "grp": "Kaspersky",
+    "duration": 15
+  },
+  {
+    "pid": 98,
+    "grp": "Mail.ru",
+    "duration": -99
+  },
+  {
+    "pid": 99,
+    "grp": "Alfa-Bank",
+    "duration": 7
+  },
+  {
+    "pid": 99,
+    "grp": "Rostelecom",
+    "duration": -99
+  },
+  {
+    "pid": 100,
+    "grp": "Rostelecom",
+    "duration": 6
+  },
+  {
+    "pid": 100,
+    "grp": "Mail.ru",
+    "duration": 33
+  },
+  {
+    "pid": 100,
+    "grp": "Yandex",
+    "duration": 19
+  },
+  {
+    "pid": 100,
+    "grp": "Mail.ru",
+    "duration": -99
+  },
+  {
+    "pid": 101,
+    "grp": "Sberbank",
+    "duration": 19
+  },
+  {
+    "pid": 101,
+    "grp": "Other Foreign",
+    "duration": 11
+  },
+  {
+    "pid": 101,
+    "grp": "Mail.ru",
+    "duration": 29
+  },
+  {
+    "pid": 101,
+    "grp": "Alfa-Bank",
+    "duration": 22
+  },
+  {
+    "pid": 101,
+    "grp": "Kaspersky",
+    "duration": -99
+  },
+  {
+    "pid": 102,
+    "grp": "Mail.ru",
+    "duration": 32
+  },
+  {
+    "pid": 102,
+    "grp": "Other Foreign",
+    "duration": 29
+  },
+  {
+    "pid": 102,
+    "grp": "Alfa-Bank",
+    "duration": 24
+  },
+  {
+    "pid": 102,
+    "grp": "Rosatom",
+    "duration": -99
+  },
+  {
+    "pid": 103,
+    "grp": "VK",
+    "duration": 20
+  },
+  {
+    "pid": 103,
+    "grp": "Tinkoff",
+    "duration": 13
+  },
+  {
+    "pid": 103,
+    "grp": "Other Foreign",
+    "duration": 30
+  },
+  {
+    "pid": 103,
+    "grp": "VK",
+    "duration": -99
+  },
+  {
+    "pid": 104,
+    "grp": "Rostelecom",
+    "duration": 21
+  },
+  {
+    "pid": 104,
+    "grp": "Kaspersky",
+    "duration": 12
+  },
+  {
+    "pid": 104,
+    "grp": "Gazprom",
+    "duration": 17
+  },
+  {
+    "pid": 104,
+    "grp": "Rosatom",
+    "duration": 31
+  },
+  {
+    "pid": 104,
+    "grp": "VK",
+    "duration": -99
+  },
+  {
+    "pid": 105,
+    "grp": "Gazprom",
+    "duration": 6
+  },
+  {
+    "pid": 105,
+    "grp": "Other Russian",
+    "duration": 22
+  },
+  {
+    "pid": 105,
+    "grp": "Kaspersky",
+    "duration": 36
+  },
+  {
+    "pid": 105,
+    "grp": "VK",
+    "duration": -99
+  },
+  {
+    "pid": 106,
+    "grp": "Sberbank",
+    "duration": 30
+  },
+  {
+    "pid": 106,
+    "grp": "Kaspersky",
+    "duration": 13
+  },
+  {
+    "pid": 106,
+    "grp": "Rosatom",
+    "duration": -99
+  },
+  {
+    "pid": 107,
+    "grp": "Mail.ru",
+    "duration": 28
+  },
+  {
+    "pid": 107,
+    "grp": "Rosatom",
+    "duration": 13
+  },
+  {
+    "pid": 107,
+    "grp": "Alfa-Bank",
+    "duration": 15
+  },
+  {
+    "pid": 107,
+    "grp": "Sberbank",
+    "duration": 27
+  },
+  {
+    "pid": 107,
+    "grp": "Tinkoff",
+    "duration": -99
+  },
+  {
+    "pid": 108,
+    "grp": "Rosatom",
+    "duration": 16
+  },
+  {
+    "pid": 108,
+    "grp": "Rostelecom",
+    "duration": 17
+  },
+  {
+    "pid": 108,
+    "grp": "Rosatom",
+    "duration": 28
+  },
+  {
+    "pid": 108,
+    "grp": "Kaspersky",
+    "duration": -99
+  },
+  {
+    "pid": 109,
+    "grp": "VK",
+    "duration": 23
+  },
+  {
+    "pid": 109,
+    "grp": "VK",
+    "duration": 36
+  },
+  {
+    "pid": 109,
+    "grp": "Sberbank",
+    "duration": 30
+  },
+  {
+    "pid": 109,
+    "grp": "Tinkoff",
+    "duration": 28
+  },
+  {
+    "pid": 109,
+    "grp": "Sberbank",
+    "duration": -99
+  },
+  {
+    "pid": 110,
+    "grp": "Tinkoff",
+    "duration": 24
+  },
+  {
+    "pid": 110,
+    "grp": "Kaspersky",
+    "duration": 30
+  },
+  {
+    "pid": 110,
+    "grp": "VK",
+    "duration": -99
+  },
+  {
+    "pid": 111,
+    "grp": "Other Foreign",
+    "duration": 15
+  },
+  {
+    "pid": 111,
+    "grp": "Alfa-Bank",
+    "duration": 6
+  },
+  {
+    "pid": 111,
+    "grp": "VK",
+    "duration": 28
+  },
+  {
+    "pid": 111,
+    "grp": "Gazprom",
+    "duration": -99
+  },
+  {
+    "pid": 112,
+    "grp": "VK",
+    "duration": 28
+  },
+  {
+    "pid": 112,
+    "grp": "Other Foreign",
+    "duration": 36
+  },
+  {
+    "pid": 112,
+    "grp": "Rostelecom",
+    "duration": -99
+  },
+  {
+    "pid": 113,
+    "grp": "Mail.ru",
+    "duration": 6
+  },
+  {
+    "pid": 113,
+    "grp": "Alfa-Bank",
+    "duration": 24
+  },
+  {
+    "pid": 113,
+    "grp": "Sberbank",
+    "duration": -99
+  },
+  {
+    "pid": 114,
+    "grp": "Rosatom",
+    "duration": 36
+  },
+  {
+    "pid": 114,
+    "grp": "Rosatom",
+    "duration": 33
+  },
+  {
+    "pid": 114,
+    "grp": "Tinkoff",
+    "duration": 21
+  },
+  {
+    "pid": 114,
+    "grp": "Yandex",
+    "duration": -99
+  },
+  {
+    "pid": 115,
+    "grp": "Alfa-Bank",
+    "duration": 8
+  },
+  {
+    "pid": 115,
+    "grp": "Gazprom",
+    "duration": -99
+  },
+  {
+    "pid": 116,
+    "grp": "Sberbank",
+    "duration": 36
+  },
+  {
+    "pid": 116,
+    "grp": "Alfa-Bank",
+    "duration": -99
+  },
+  {
+    "pid": 117,
+    "grp": "Sberbank",
+    "duration": 25
+  },
+  {
+    "pid": 117,
+    "grp": "Tinkoff",
+    "duration": 31
+  },
+  {
+    "pid": 117,
+    "grp": "Rostelecom",
+    "duration": 25
+  },
+  {
+    "pid": 117,
+    "grp": "Gazprom",
+    "duration": -99
+  },
+  {
+    "pid": 118,
+    "grp": "Alfa-Bank",
+    "duration": 15
+  },
+  {
+    "pid": 118,
+    "grp": "Gazprom",
+    "duration": 33
+  },
+  {
+    "pid": 118,
+    "grp": "Other Russian",
+    "duration": -99
+  },
+  {
+    "pid": 119,
+    "grp": "VK",
+    "duration": 12
+  },
+  {
+    "pid": 119,
+    "grp": "Mail.ru",
+    "duration": 26
+  },
+  {
+    "pid": 119,
+    "grp": "Mail.ru",
+    "duration": 12
+  },
+  {
+    "pid": 119,
+    "grp": "Kaspersky",
+    "duration": 14
+  },
+  {
+    "pid": 119,
+    "grp": "Other Foreign",
+    "duration": -99
+  },
+  {
+    "pid": 120,
+    "grp": "Sberbank",
+    "duration": 8
+  },
+  {
+    "pid": 120,
+    "grp": "Tinkoff",
+    "duration": -99
+  },
+  {
+    "pid": 121,
+    "grp": "Yandex",
+    "duration": 15
+  },
+  {
+    "pid": 121,
+    "grp": "Rosatom",
+    "duration": 7
+  },
+  {
+    "pid": 121,
+    "grp": "Mail.ru",
+    "duration": -99
+  },
+  {
+    "pid": 122,
+    "grp": "VK",
+    "duration": 8
+  },
+  {
+    "pid": 122,
+    "grp": "VK",
+    "duration": 27
+  },
+  {
+    "pid": 122,
+    "grp": "Other Russian",
+    "duration": -99
+  },
+  {
+    "pid": 123,
+    "grp": "Other Foreign",
+    "duration": 27
+  },
+  {
+    "pid": 123,
+    "grp": "Alfa-Bank",
+    "duration": 31
+  },
+  {
+    "pid": 123,
+    "grp": "Mail.ru",
+    "duration": -99
+  },
+  {
+    "pid": 124,
+    "grp": "Rosatom",
+    "duration": 35
+  },
+  {
+    "pid": 124,
+    "grp": "Rostelecom",
+    "duration": 14
+  },
+  {
+    "pid": 124,
+    "grp": "Mail.ru",
+    "duration": -99
+  },
+  {
+    "pid": 125,
+    "grp": "Yandex",
+    "duration": 29
+  },
+  {
+    "pid": 125,
+    "grp": "Sberbank",
+    "duration": 32
+  },
+  {
+    "pid": 125,
+    "grp": "VK",
+    "duration": -99
+  },
+  {
+    "pid": 126,
+    "grp": "Rosatom",
+    "duration": 14
+  },
+  {
+    "pid": 126,
+    "grp": "Rosatom",
+    "duration": 22
+  },
+  {
+    "pid": 126,
+    "grp": "VK",
+    "duration": 23
+  },
+  {
+    "pid": 126,
+    "grp": "Gazprom",
+    "duration": -99
+  },
+  {
+    "pid": 127,
+    "grp": "Rosatom",
+    "duration": 6
+  },
+  {
+    "pid": 127,
+    "grp": "Mail.ru",
+    "duration": 8
+  },
+  {
+    "pid": 127,
+    "grp": "Other Russian",
+    "duration": 13
+  },
+  {
+    "pid": 127,
+    "grp": "Kaspersky",
+    "duration": 36
+  },
+  {
+    "pid": 127,
+    "grp": "Mail.ru",
+    "duration": -99
+  },
+  {
+    "pid": 128,
+    "grp": "Other Foreign",
+    "duration": 14
+  },
+  {
+    "pid": 128,
+    "grp": "Kaspersky",
+    "duration": -99
+  },
+  {
+    "pid": 129,
+    "grp": "Alfa-Bank",
+    "duration": 22
+  },
+  {
+    "pid": 129,
+    "grp": "Tinkoff",
+    "duration": -99
+  },
+  {
+    "pid": 130,
+    "grp": "Other Russian",
+    "duration": 8
+  },
+  {
+    "pid": 130,
+    "grp": "Tinkoff",
+    "duration": 21
+  },
+  {
+    "pid": 130,
+    "grp": "Mail.ru",
+    "duration": 17
+  },
+  {
+    "pid": 130,
+    "grp": "Mail.ru",
+    "duration": 19
+  },
+  {
+    "pid": 130,
+    "grp": "Rosatom",
+    "duration": -99
+  },
+  {
+    "pid": 131,
+    "grp": "VK",
+    "duration": 21
+  },
+  {
+    "pid": 131,
+    "grp": "Sberbank",
+    "duration": 15
+  },
+  {
+    "pid": 131,
+    "grp": "Sberbank",
+    "duration": 27
+  },
+  {
+    "pid": 131,
+    "grp": "Gazprom",
+    "duration": -99
+  },
+  {
+    "pid": 132,
+    "grp": "Alfa-Bank",
+    "duration": 30
+  },
+  {
+    "pid": 132,
+    "grp": "Rostelecom",
+    "duration": 18
+  },
+  {
+    "pid": 132,
+    "grp": "Rosatom",
+    "duration": 33
+  },
+  {
+    "pid": 132,
+    "grp": "VK",
+    "duration": 22
+  },
+  {
+    "pid": 132,
+    "grp": "VK",
+    "duration": -99
+  },
+  {
+    "pid": 133,
+    "grp": "Mail.ru",
+    "duration": 19
+  },
+  {
+    "pid": 133,
+    "grp": "Rostelecom",
+    "duration": -99
+  },
+  {
+    "pid": 134,
+    "grp": "Tinkoff",
+    "duration": 30
+  },
+  {
+    "pid": 134,
+    "grp": "Gazprom",
+    "duration": -99
+  },
+  {
+    "pid": 135,
+    "grp": "Mail.ru",
+    "duration": 20
+  },
+  {
+    "pid": 135,
+    "grp": "Alfa-Bank",
+    "duration": 34
+  },
+  {
+    "pid": 135,
+    "grp": "Tinkoff",
+    "duration": 28
+  },
+  {
+    "pid": 135,
+    "grp": "Rostelecom",
+    "duration": 21
+  },
+  {
+    "pid": 135,
+    "grp": "Other Foreign",
+    "duration": -99
+  },
+  {
+    "pid": 136,
+    "grp": "Yandex",
+    "duration": 31
+  },
+  {
+    "pid": 136,
+    "grp": "Mail.ru",
+    "duration": -99
+  },
+  {
+    "pid": 137,
+    "grp": "Kaspersky",
+    "duration": 19
+  },
+  {
+    "pid": 137,
+    "grp": "VK",
+    "duration": 8
+  },
+  {
+    "pid": 137,
+    "grp": "Yandex",
+    "duration": -99
+  },
+  {
+    "pid": 138,
+    "grp": "Other Foreign",
+    "duration": 9
+  },
+  {
+    "pid": 138,
+    "grp": "Other Russian",
+    "duration": 26
+  },
+  {
+    "pid": 138,
+    "grp": "Rosatom",
+    "duration": -99
+  },
+  {
+    "pid": 139,
+    "grp": "Rosatom",
+    "duration": 14
+  },
+  {
+    "pid": 139,
+    "grp": "Kaspersky",
+    "duration": 19
+  },
+  {
+    "pid": 139,
+    "grp": "Rostelecom",
+    "duration": -99
+  },
+  {
+    "pid": 140,
+    "grp": "Other Foreign",
+    "duration": 22
+  },
+  {
+    "pid": 140,
+    "grp": "Tinkoff",
+    "duration": 29
+  },
+  {
+    "pid": 140,
+    "grp": "Rostelecom",
+    "duration": 34
+  },
+  {
+    "pid": 140,
+    "grp": "Gazprom",
+    "duration": 10
+  },
+  {
+    "pid": 140,
+    "grp": "Other Foreign",
+    "duration": -99
+  },
+  {
+    "pid": 141,
+    "grp": "VK",
+    "duration": 19
+  },
+  {
+    "pid": 141,
+    "grp": "Alfa-Bank",
+    "duration": -99
+  },
+  {
+    "pid": 142,
+    "grp": "Other Foreign",
+    "duration": 15
+  },
+  {
+    "pid": 142,
+    "grp": "Rostelecom",
+    "duration": 32
+  },
+  {
+    "pid": 142,
+    "grp": "Alfa-Bank",
+    "duration": 24
+  },
+  {
+    "pid": 142,
+    "grp": "VK",
+    "duration": -99
+  },
+  {
+    "pid": 143,
+    "grp": "Other Russian",
+    "duration": 18
+  },
+  {
+    "pid": 143,
+    "grp": "Rosatom",
+    "duration": 20
+  },
+  {
+    "pid": 143,
+    "grp": "Rosatom",
+    "duration": 35
+  },
+  {
+    "pid": 143,
+    "grp": "VK",
+    "duration": 16
+  },
+  {
+    "pid": 143,
+    "grp": "Alfa-Bank",
+    "duration": -99
+  },
+  {
+    "pid": 144,
+    "grp": "Other Foreign",
+    "duration": 33
+  },
+  {
+    "pid": 144,
+    "grp": "Tinkoff",
+    "duration": 30
+  },
+  {
+    "pid": 144,
+    "grp": "Gazprom",
+    "duration": -99
+  },
+  {
+    "pid": 145,
+    "grp": "Yandex",
+    "duration": 27
+  },
+  {
+    "pid": 145,
+    "grp": "Kaspersky",
+    "duration": 31
+  },
+  {
+    "pid": 145,
+    "grp": "Kaspersky",
+    "duration": 32
+  },
+  {
+    "pid": 145,
+    "grp": "Alfa-Bank",
+    "duration": 26
+  },
+  {
+    "pid": 145,
+    "grp": "Gazprom",
+    "duration": -99
+  },
+  {
+    "pid": 146,
+    "grp": "Rosatom",
+    "duration": 24
+  },
+  {
+    "pid": 146,
+    "grp": "Yandex",
+    "duration": 16
+  },
+  {
+    "pid": 146,
+    "grp": "Rostelecom",
+    "duration": -99
+  },
+  {
+    "pid": 147,
+    "grp": "Other Russian",
+    "duration": 22
+  },
+  {
+    "pid": 147,
+    "grp": "Rosatom",
+    "duration": -99
+  },
+  {
+    "pid": 148,
+    "grp": "Yandex",
+    "duration": 31
+  },
+  {
+    "pid": 148,
+    "grp": "Sberbank",
+    "duration": 14
+  },
+  {
+    "pid": 148,
+    "grp": "Other Russian",
+    "duration": 16
+  },
+  {
+    "pid": 148,
+    "grp": "Other Foreign",
+    "duration": 25
+  },
+  {
+    "pid": 148,
+    "grp": "Yandex",
+    "duration": -99
+  },
+  {
+    "pid": 149,
+    "grp": "Mail.ru",
+    "duration": 16
+  },
+  {
+    "pid": 149,
+    "grp": "Other Russian",
+    "duration": 26
+  },
+  {
+    "pid": 149,
+    "grp": "Other Russian",
+    "duration": 28
+  },
+  {
+    "pid": 149,
+    "grp": "Other Russian",
+    "duration": 34
+  },
+  {
+    "pid": 149,
+    "grp": "Gazprom",
+    "duration": -99
+  },
+  {
+    "pid": 150,
+    "grp": "Other Russian",
+    "duration": 13
+  },
+  {
+    "pid": 150,
+    "grp": "Yandex",
+    "duration": 29
+  },
+  {
+    "pid": 150,
+    "grp": "Yandex",
+    "duration": 8
+  },
+  {
+    "pid": 150,
+    "grp": "Mail.ru",
+    "duration": 19
+  },
+  {
+    "pid": 150,
+    "grp": "Other Foreign",
+    "duration": -99
+  },
+  {
+    "pid": 151,
+    "grp": "Alfa-Bank",
+    "duration": 9
+  },
+  {
+    "pid": 151,
+    "grp": "Kaspersky",
+    "duration": -99
+  },
+  {
+    "pid": 152,
+    "grp": "Sberbank",
+    "duration": 17
+  },
+  {
+    "pid": 152,
+    "grp": "VK",
+    "duration": 17
+  },
+  {
+    "pid": 152,
+    "grp": "Yandex",
+    "duration": 19
+  },
+  {
+    "pid": 152,
+    "grp": "VK",
+    "duration": 10
+  },
+  {
+    "pid": 152,
+    "grp": "Yandex",
+    "duration": -99
+  },
+  {
+    "pid": 153,
+    "grp": "Rostelecom",
+    "duration": 11
+  },
+  {
+    "pid": 153,
+    "grp": "Rostelecom",
+    "duration": 11
+  },
+  {
+    "pid": 153,
+    "grp": "Alfa-Bank",
+    "duration": -99
+  },
+  {
+    "pid": 154,
+    "grp": "Mail.ru",
+    "duration": 27
+  },
+  {
+    "pid": 154,
+    "grp": "Gazprom",
+    "duration": -99
+  },
+  {
+    "pid": 155,
+    "grp": "Rosatom",
+    "duration": 26
+  },
+  {
+    "pid": 155,
+    "grp": "Rostelecom",
+    "duration": 14
+  },
+  {
+    "pid": 155,
+    "grp": "Tinkoff",
+    "duration": -99
+  },
+  {
+    "pid": 156,
+    "grp": "VK",
+    "duration": 11
+  },
+  {
+    "pid": 156,
+    "grp": "Yandex",
+    "duration": 8
+  },
+  {
+    "pid": 156,
+    "grp": "Alfa-Bank",
+    "duration": 20
+  },
+  {
+    "pid": 156,
+    "grp": "Other Russian",
+    "duration": 36
+  },
+  {
+    "pid": 156,
+    "grp": "Kaspersky",
+    "duration": -99
+  },
+  {
+    "pid": 157,
+    "grp": "Other Foreign",
+    "duration": 20
+  },
+  {
+    "pid": 157,
+    "grp": "VK",
+    "duration": 33
+  },
+  {
+    "pid": 157,
+    "grp": "Other Foreign",
+    "duration": 15
+  },
+  {
+    "pid": 157,
+    "grp": "Kaspersky",
+    "duration": -99
+  },
+  {
+    "pid": 158,
+    "grp": "Other Foreign",
+    "duration": 18
+  },
+  {
+    "pid": 158,
+    "grp": "Other Russian",
+    "duration": 24
+  },
+  {
+    "pid": 158,
+    "grp": "Sberbank",
+    "duration": -99
+  },
+  {
+    "pid": 159,
+    "grp": "Rostelecom",
+    "duration": 27
+  },
+  {
+    "pid": 159,
+    "grp": "Other Foreign",
+    "duration": 18
+  },
+  {
+    "pid": 159,
+    "grp": "VK",
+    "duration": 14
+  },
+  {
+    "pid": 159,
+    "grp": "Other Foreign",
+    "duration": -99
+  },
+  {
+    "pid": 160,
+    "grp": "Rostelecom",
+    "duration": 29
+  },
+  {
+    "pid": 160,
+    "grp": "Kaspersky",
+    "duration": -99
+  },
+  {
+    "pid": 161,
+    "grp": "Other Russian",
+    "duration": 32
+  },
+  {
+    "pid": 161,
+    "grp": "Kaspersky",
+    "duration": -99
+  },
+  {
+    "pid": 162,
+    "grp": "Alfa-Bank",
+    "duration": 12
+  },
+  {
+    "pid": 162,
+    "grp": "Tinkoff",
+    "duration": 25
+  },
+  {
+    "pid": 162,
+    "grp": "Alfa-Bank",
+    "duration": 14
+  },
+  {
+    "pid": 162,
+    "grp": "Tinkoff",
+    "duration": -99
+  },
+  {
+    "pid": 163,
+    "grp": "Mail.ru",
+    "duration": 15
+  },
+  {
+    "pid": 163,
+    "grp": "Other Russian",
+    "duration": 31
+  },
+  {
+    "pid": 163,
+    "grp": "Mail.ru",
+    "duration": -99
+  },
+  {
+    "pid": 164,
+    "grp": "Yandex",
+    "duration": 19
+  },
+  {
+    "pid": 164,
+    "grp": "Gazprom",
+    "duration": 11
+  },
+  {
+    "pid": 164,
+    "grp": "Sberbank",
+    "duration": 12
+  },
+  {
+    "pid": 164,
+    "grp": "Other Russian",
+    "duration": 10
+  },
+  {
+    "pid": 164,
+    "grp": "VK",
+    "duration": -99
+  },
+  {
+    "pid": 165,
+    "grp": "Rostelecom",
+    "duration": 32
+  },
+  {
+    "pid": 165,
+    "grp": "Other Russian",
+    "duration": 36
+  },
+  {
+    "pid": 165,
+    "grp": "Alfa-Bank",
+    "duration": 21
+  },
+  {
+    "pid": 165,
+    "grp": "VK",
+    "duration": -99
+  },
+  {
+    "pid": 166,
+    "grp": "Kaspersky",
+    "duration": 10
+  },
+  {
+    "pid": 166,
+    "grp": "Gazprom",
+    "duration": 30
+  },
+  {
+    "pid": 166,
+    "grp": "Sberbank",
+    "duration": 36
+  },
+  {
+    "pid": 166,
+    "grp": "Other Foreign",
+    "duration": -99
+  },
+  {
+    "pid": 167,
+    "grp": "Other Russian",
+    "duration": 36
+  },
+  {
+    "pid": 167,
+    "grp": "Kaspersky",
+    "duration": 33
+  },
+  {
+    "pid": 167,
+    "grp": "Other Foreign",
+    "duration": -99
+  },
+  {
+    "pid": 168,
+    "grp": "Sberbank",
+    "duration": 17
+  },
+  {
+    "pid": 168,
+    "grp": "Gazprom",
+    "duration": 27
+  },
+  {
+    "pid": 168,
+    "grp": "VK",
+    "duration": 29
+  },
+  {
+    "pid": 168,
+    "grp": "Sberbank",
+    "duration": -99
+  },
+  {
+    "pid": 169,
+    "grp": "Mail.ru",
+    "duration": 13
+  },
+  {
+    "pid": 169,
+    "grp": "Alfa-Bank",
+    "duration": 21
+  },
+  {
+    "pid": 169,
+    "grp": "Other Foreign",
+    "duration": 6
+  },
+  {
+    "pid": 169,
+    "grp": "Sberbank",
+    "duration": -99
+  },
+  {
+    "pid": 170,
+    "grp": "Other Russian",
+    "duration": 35
+  },
+  {
+    "pid": 170,
+    "grp": "Tinkoff",
+    "duration": 28
+  },
+  {
+    "pid": 170,
+    "grp": "Yandex",
+    "duration": 15
+  },
+  {
+    "pid": 170,
+    "grp": "Alfa-Bank",
+    "duration": -99
+  },
+  {
+    "pid": 171,
+    "grp": "Sberbank",
+    "duration": 13
+  },
+  {
+    "pid": 171,
+    "grp": "Yandex",
+    "duration": 34
+  },
+  {
+    "pid": 171,
+    "grp": "Yandex",
+    "duration": 23
+  },
+  {
+    "pid": 171,
+    "grp": "Other Foreign",
+    "duration": 10
+  },
+  {
+    "pid": 171,
+    "grp": "Sberbank",
+    "duration": -99
+  },
+  {
+    "pid": 172,
+    "grp": "Rosatom",
+    "duration": 29
+  },
+  {
+    "pid": 172,
+    "grp": "Kaspersky",
+    "duration": 29
+  },
+  {
+    "pid": 172,
+    "grp": "Kaspersky",
+    "duration": 10
+  },
+  {
+    "pid": 172,
+    "grp": "Other Foreign",
+    "duration": 34
+  },
+  {
+    "pid": 172,
+    "grp": "Rosatom",
+    "duration": -99
+  },
+  {
+    "pid": 173,
+    "grp": "Mail.ru",
+    "duration": 28
+  },
+  {
+    "pid": 173,
+    "grp": "Other Russian",
+    "duration": 17
+  },
+  {
+    "pid": 173,
+    "grp": "Mail.ru",
+    "duration": 12
+  },
+  {
+    "pid": 173,
+    "grp": "Other Foreign",
+    "duration": 20
+  },
+  {
+    "pid": 173,
+    "grp": "VK",
+    "duration": -99
+  },
+  {
+    "pid": 174,
+    "grp": "Other Foreign",
+    "duration": 26
+  },
+  {
+    "pid": 174,
+    "grp": "Other Russian",
+    "duration": 17
+  },
+  {
+    "pid": 174,
+    "grp": "Sberbank",
+    "duration": 7
+  },
+  {
+    "pid": 174,
+    "grp": "Kaspersky",
+    "duration": 18
+  },
+  {
+    "pid": 174,
+    "grp": "Rostelecom",
+    "duration": -99
+  },
+  {
+    "pid": 175,
+    "grp": "Tinkoff",
+    "duration": 27
+  },
+  {
+    "pid": 175,
+    "grp": "Sberbank",
+    "duration": 12
+  },
+  {
+    "pid": 175,
+    "grp": "Other Russian",
+    "duration": 26
+  },
+  {
+    "pid": 175,
+    "grp": "Rosatom",
+    "duration": -99
+  },
+  {
+    "pid": 176,
+    "grp": "Yandex",
+    "duration": 10
+  },
+  {
+    "pid": 176,
+    "grp": "Gazprom",
+    "duration": -99
+  },
+  {
+    "pid": 177,
+    "grp": "Yandex",
+    "duration": 12
+  },
+  {
+    "pid": 177,
+    "grp": "Alfa-Bank",
+    "duration": 32
+  },
+  {
+    "pid": 177,
+    "grp": "Tinkoff",
+    "duration": -99
+  },
+  {
+    "pid": 178,
+    "grp": "VK",
+    "duration": 6
+  },
+  {
+    "pid": 178,
+    "grp": "Sberbank",
+    "duration": 14
+  },
+  {
+    "pid": 178,
+    "grp": "Other Russian",
+    "duration": -99
+  },
+  {
+    "pid": 179,
+    "grp": "Other Foreign",
+    "duration": 9
+  },
+  {
+    "pid": 179,
+    "grp": "Rostelecom",
+    "duration": 27
+  },
+  {
+    "pid": 179,
+    "grp": "Alfa-Bank",
+    "duration": -99
+  },
+  {
+    "pid": 180,
+    "grp": "Sberbank",
+    "duration": 31
+  },
+  {
+    "pid": 180,
+    "grp": "Gazprom",
+    "duration": -99
+  },
+  {
+    "pid": 181,
+    "grp": "Mail.ru",
+    "duration": 10
+  },
+  {
+    "pid": 181,
+    "grp": "Yandex",
+    "duration": 29
+  },
+  {
+    "pid": 181,
+    "grp": "VK",
+    "duration": -99
+  },
+  {
+    "pid": 182,
+    "grp": "Rostelecom",
+    "duration": 9
+  },
+  {
+    "pid": 182,
+    "grp": "Kaspersky",
+    "duration": 20
+  },
+  {
+    "pid": 182,
+    "grp": "Rosatom",
+    "duration": 22
+  },
+  {
+    "pid": 182,
+    "grp": "Alfa-Bank",
+    "duration": 13
+  },
+  {
+    "pid": 182,
+    "grp": "Rostelecom",
+    "duration": -99
+  },
+  {
+    "pid": 183,
+    "grp": "Kaspersky",
+    "duration": 27
+  },
+  {
+    "pid": 183,
+    "grp": "Other Russian",
+    "duration": -99
+  },
+  {
+    "pid": 184,
+    "grp": "Rosatom",
+    "duration": 18
+  },
+  {
+    "pid": 184,
+    "grp": "Other Foreign",
+    "duration": 19
+  },
+  {
+    "pid": 184,
+    "grp": "Yandex",
+    "duration": 27
+  },
+  {
+    "pid": 184,
+    "grp": "Rosatom",
+    "duration": -99
+  },
+  {
+    "pid": 185,
+    "grp": "Rosatom",
+    "duration": 8
+  },
+  {
+    "pid": 185,
+    "grp": "Other Russian",
+    "duration": -99
+  },
+  {
+    "pid": 186,
+    "grp": "VK",
+    "duration": 10
+  },
+  {
+    "pid": 186,
+    "grp": "Sberbank",
+    "duration": -99
+  },
+  {
+    "pid": 187,
+    "grp": "Mail.ru",
+    "duration": 25
+  },
+  {
+    "pid": 187,
+    "grp": "Mail.ru",
+    "duration": 22
+  },
+  {
+    "pid": 187,
+    "grp": "Kaspersky",
+    "duration": 15
+  },
+  {
+    "pid": 187,
+    "grp": "Gazprom",
+    "duration": -99
+  },
+  {
+    "pid": 188,
+    "grp": "Rostelecom",
+    "duration": 34
+  },
+  {
+    "pid": 188,
+    "grp": "Rosatom",
+    "duration": 30
+  },
+  {
+    "pid": 188,
+    "grp": "Alfa-Bank",
+    "duration": 23
+  },
+  {
+    "pid": 188,
+    "grp": "Sberbank",
+    "duration": 29
+  },
+  {
+    "pid": 188,
+    "grp": "Mail.ru",
+    "duration": -99
+  },
+  {
+    "pid": 189,
+    "grp": "Rosatom",
+    "duration": 32
+  },
+  {
+    "pid": 189,
+    "grp": "Other Russian",
+    "duration": 20
+  },
+  {
+    "pid": 189,
+    "grp": "Gazprom",
+    "duration": -99
+  },
+  {
+    "pid": 190,
+    "grp": "Gazprom",
+    "duration": 10
+  },
+  {
+    "pid": 190,
+    "grp": "Sberbank",
+    "duration": 27
+  },
+  {
+    "pid": 190,
+    "grp": "Rosatom",
+    "duration": 35
+  },
+  {
+    "pid": 190,
+    "grp": "Mail.ru",
+    "duration": 21
+  },
+  {
+    "pid": 190,
+    "grp": "Gazprom",
+    "duration": -99
+  },
+  {
+    "pid": 191,
+    "grp": "Sberbank",
+    "duration": 19
+  },
+  {
+    "pid": 191,
+    "grp": "Sberbank",
+    "duration": -99
+  },
+  {
+    "pid": 192,
+    "grp": "Kaspersky",
+    "duration": 10
+  },
+  {
+    "pid": 192,
+    "grp": "Gazprom",
+    "duration": -99
+  },
+  {
+    "pid": 193,
+    "grp": "Mail.ru",
+    "duration": 16
+  },
+  {
+    "pid": 193,
+    "grp": "Rostelecom",
+    "duration": -99
+  },
+  {
+    "pid": 194,
+    "grp": "Gazprom",
+    "duration": 36
+  },
+  {
+    "pid": 194,
+    "grp": "Other Russian",
+    "duration": -99
+  },
+  {
+    "pid": 195,
+    "grp": "Other Russian",
+    "duration": 24
+  },
+  {
+    "pid": 195,
+    "grp": "Kaspersky",
+    "duration": 22
+  },
+  {
+    "pid": 195,
+    "grp": "Other Foreign",
+    "duration": 12
+  },
+  {
+    "pid": 195,
+    "grp": "Mail.ru",
+    "duration": 10
+  },
+  {
+    "pid": 195,
+    "grp": "Gazprom",
+    "duration": -99
+  },
+  {
+    "pid": 196,
+    "grp": "Tinkoff",
+    "duration": 24
+  },
+  {
+    "pid": 196,
+    "grp": "Sberbank",
+    "duration": 13
+  },
+  {
+    "pid": 196,
+    "grp": "Other Russian",
+    "duration": 31
+  },
+  {
+    "pid": 196,
+    "grp": "Gazprom",
+    "duration": 19
+  },
+  {
+    "pid": 196,
+    "grp": "Alfa-Bank",
+    "duration": -99
+  },
+  {
+    "pid": 197,
+    "grp": "Mail.ru",
+    "duration": 28
+  },
+  {
+    "pid": 197,
+    "grp": "Mail.ru",
+    "duration": -99
+  },
+  {
+    "pid": 198,
+    "grp": "Yandex",
+    "duration": 17
+  },
+  {
+    "pid": 198,
+    "grp": "VK",
+    "duration": 6
+  },
+  {
+    "pid": 198,
+    "grp": "Alfa-Bank",
+    "duration": 11
+  },
+  {
+    "pid": 198,
+    "grp": "Other Foreign",
+    "duration": -99
+  },
+  {
+    "pid": 199,
+    "grp": "Rostelecom",
+    "duration": 26
+  },
+  {
+    "pid": 199,
+    "grp": "Gazprom",
+    "duration": 6
+  },
+  {
+    "pid": 199,
+    "grp": "Sberbank",
+    "duration": -99
+  },
+  {
+    "pid": 200,
+    "grp": "Kaspersky",
+    "duration": 19
+  },
+  {
+    "pid": 200,
+    "grp": "Tinkoff",
+    "duration": -99
+  }
+]

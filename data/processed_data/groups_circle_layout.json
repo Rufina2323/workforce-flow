@@ -1,0 +1,74 @@
+{
+  "Yandex": {
+    "x": 700.0,
+    "y": 400.0,
+    "color": "#FFCC00",
+    "fullname": "Yandex"
+  },
+  "Sberbank": {
+    "x": 659.8076211353316,
+    "y": 550.0,
+    "color": "#2E8B57",
+    "fullname": "Sberbank"
+  },
+  "Tinkoff": {
+    "x": 550.0,
+    "y": 659.8076211353316,
+    "color": "#FFD700",
+    "fullname": "Tinkoff"
+  },
+  "VK": {
+    "x": 400.0,
+    "y": 700.0,
+    "color": "#4682B4",
+    "fullname": "VK"
+  },
+  "Gazprom": {
+    "x": 250.00000000000006,
+    "y": 659.8076211353316,
+    "color": "#1E90FF",
+    "fullname": "Gazprom"
+  },
+  "Rosatom": {
+    "x": 140.19237886466846,
+    "y": 550.0000000000001,
+    "color": "#8A2BE2",
+    "fullname": "Rosatom"
+  },
+  "Rostelecom": {
+    "x": 100.0,
+    "y": 400.00000000000006,
+    "color": "#FF4500",
+    "fullname": "Rostelecom"
+  },
+  "Mail.ru": {
+    "x": 140.19237886466834,
+    "y": 250.00000000000009,
+    "color": "#00CED1",
+    "fullname": "Mail.ru"
+  },
+  "Kaspersky": {
+    "x": 249.99999999999986,
+    "y": 140.1923788646685,
+    "color": "#3CB371",
+    "fullname": "Kaspersky"
+  },
+  "Alfa-Bank": {
+    "x": 399.99999999999994,
+    "y": 100.0,
+    "color": "#DC143C",
+    "fullname": "Alfa-Bank"
+  },
+  "Other Russian": {
+    "x": 549.9999999999998,
+    "y": 140.19237886466829,
+    "color": "#A9A9A9",
+    "fullname": "Other Russian"
+  },
+  "Other Foreign": {
+    "x": 659.8076211353315,
+    "y": 249.99999999999986,
+    "color": "#708090",
+    "fullname": "Other Foreign"
+  }
+}
