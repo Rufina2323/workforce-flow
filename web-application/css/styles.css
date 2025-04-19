@@ -1,17 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
-
 :root {
     --primary-color: #7ED321;
     --text-color: #2e2e2e;
     --text-secondary: #6b6f76;
-    --background-color: #edf0f4;
+    --background-color: #e8e8e8;
     --card-shadow: 0 4px 6px rgba(0,0,0,0.05);
     --hover-shadow: 0 8px 12px rgba(0,0,0,0.1);
     --section-spacing: 80px;
 }
 
 body {
-    font-family: 'Inter', sans-serif;
+    font-family: "Courier New", Georgia;
+    font-weight: 500;
     margin: 0;
     padding: 0;
     background-color: var(--background-color);
@@ -36,6 +35,7 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 0 20px;
+    font-family: "Courier New", Georgia;
 }
 
 .logo {
@@ -48,7 +48,7 @@ body {
     color: var(--text-color);
     text-decoration: none;
     margin-left: 30px;
-    font-weight: 500;
+    font-weight: 600;
     transition: color 0.2s ease;
 }
 
@@ -69,12 +69,13 @@ body {
 .hero-content {
     max-width: 900px;
     padding: 0 20px;
+    font-family: "Courier New", Georgia;
 }
 
 .hero h1 {
     font-size: 3.5em;
     margin: 0;
-    font-weight: 700;
+    font-weight: 800;
     letter-spacing: -1px;
     line-height: 1.2;
 }
@@ -98,7 +99,7 @@ body {
     font-size: 2.5em;
     margin-bottom: 40px;
     text-align: center;
-    font-weight: 600;
+    font-weight: 700;
     letter-spacing: -0.5px;
 }
 
@@ -107,6 +108,7 @@ body {
     padding: 30px;
     border-radius: 12px;
     box-shadow: var(--card-shadow);
+    font-family: "Courier New", Georgia;
 }
 
 .project-goals {
@@ -142,6 +144,7 @@ body {
     grid-template-columns: repeat(3, 1fr);
     gap: 30px;
     margin-top: 40px;
+    font-family: "Courier New", Georgia;
 }
 
 .stat-card {
@@ -170,7 +173,7 @@ body {
     font-size: 2.5em;
     color: var (--primary-color);
     margin: 15px 0 5px;
-    font-weight: 600;
+    font-weight: 700;
 }
 
 .stat-description {
@@ -226,6 +229,7 @@ body {
 
 .text-content-plain {
     padding: 20px;
+    font-family: "Courier New", Georgia;
 }
 
 .text-content-plain h3 {
@@ -285,6 +289,7 @@ body {
     text-align: center;
     box-shadow: var(--card-shadow);
     transition: transform 0.2s ease;
+    font-family: "Courier New", Georgia;
 }
 
 .team-member:hover {
@@ -341,6 +346,55 @@ body {
     margin-bottom: 4px;
 }
 
+.control-button:hover {
+    opacity: 0.9;
+    transform: translateY(-1px);
+    transition: all 0.2s ease;
+}
+
+.control-button svg {
+    transition: transform 0.2s ease;
+}
+
+.control-button:hover svg {
+    transform: scale(1.1);
+}
+
+.pause-icon, .play-icon {
+    transition: display 0.2s ease;
+}
+
+.reset-button:hover svg {
+    transform: scale(1.1) rotate(-45deg);
+    transition: transform 0.3s ease;
+}
+
+.reset-button svg {
+    transition: transform 0.3s ease;
+}
+
+.time-display {
+    font-family: "Courier New", Georgia;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 5px 10px;
+    border-radius: 4px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    display: inline-block;
+}
+
+.time-display-container {
+    font-family: "Courier New", Georgia;
+}
+
+.year-display {
+    font-weight: 700;
+}
+
+.month-display {
+    font-weight: 500;
+    color: #6b6f76;
+}
+
 #year-selector {
     display: none;
 }
@@ -352,7 +406,7 @@ body {
 }
 
 .year-selector {
-    font-family: 'Inter', sans-serif;
+    font-family: "Courier New", Georgia;
     margin-bottom: 10px !important;
 }
 
@@ -372,7 +426,7 @@ body {
 }
 
 .center-text {
-    font-family: 'Inter', sans-serif;
+    font-family: "Courier New", Georgia;
     font-weight: 600;
 }
 

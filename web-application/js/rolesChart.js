@@ -35,8 +35,9 @@ export async function createRolesChart() {
             .attr('y', 5)
             .attr('text-anchor', 'middle')
             .style('font-size', '16px')
-            .style('font-weight', '600')
+            .style('font-weight', '700')
             .style('fill', TEXT_COLOR)
+            .style('font-family', '"Courier New", Georgia')
             .text('Job Roles Distribution');
 
         const years = data.map(d => d.year);
@@ -170,6 +171,7 @@ export async function createRolesChart() {
                 .style('font-size', '24px')
                 .style('font-weight', '600')
                 .style('fill', TEXT_COLOR)
+                .style('font-family', '"Courier New", Georgia')
                 .text(year);
 
             svg.selectAll('.legend').remove();
@@ -211,8 +213,9 @@ export async function createRolesChart() {
                 .attr('x', legendRectSize + 8)
                 .attr('y', 11)
                 .text(d => d.profession_name)
-                .style('font-family', 'Inter, sans-serif')
+                .style('font-family', '"Courier New", Georgia')
                 .style('font-size', '12px')
+                .style('font-weight', '600')
                 .style('fill', TEXT_SECONDARY)
                 .style('pointer-events', 'none')
                 .style('z-index', 1);

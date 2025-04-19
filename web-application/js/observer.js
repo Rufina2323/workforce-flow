@@ -11,8 +11,9 @@ const observerOptions = {
 const observer = new IntersectionObserver((entries, observer) => {
     entries.forEach(entry => {
         if (entry.isIntersecting) {
-            if (entry.target.id === 'transition-chart') {
+            if (entry.target.id === 'transition-chart' && !entry.target.classList.contains('initialized')) {
                 createTransitionChart();
+                entry.target.classList.add('initialized');
             } else if (entry.target.id === 'skills-chart') {
                 createSkillsChart();
             } else if (entry.target.id === 'roles-chart') {

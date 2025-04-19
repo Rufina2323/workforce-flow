@@ -38,6 +38,7 @@ export async function createSkillsChart() {
             .style('border', '1px solid #e0e0e0')
             .style('color', TEXT_COLOR)
             .style('background', 'white')
+            .style('font-family', '"Courier New", Georgia')
             .on('change', function () {
                 updateChart(this.value);
             });
@@ -89,8 +90,9 @@ export async function createSkillsChart() {
                 .attr('y', SKILLS_MARGIN.top / 2)
                 .attr('text-anchor', 'middle')
                 .style('font-size', '16px')
-                .style('font-weight', '600')
+                .style('font-weight', '700')
                 .style('fill', TEXT_COLOR)
+                .style('font-family', '"Courier New", Georgia')
                 .text(`${professionName} - Top Technical Skills`);
 
             const bars = g.selectAll('.bar')
@@ -100,7 +102,7 @@ export async function createSkillsChart() {
                 .attr('y', d => yScale(d.skill_name))
                 .attr('height', yScale.bandwidth())
                 .attr('x', 0)
-                .attr('width', 0)
+                .attr('width', d => xScale(d.number_of_professionals))
                 .attr('fill', PRIMARY_COLOR)
                 .attr('opacity', 0.8)
                 .on('mouseover', function (event, d) {
@@ -128,8 +130,9 @@ export async function createSkillsChart() {
                 .attr('dominant-baseline', 'middle')
                 .attr('fill', TEXT_COLOR)
                 .style('font-size', '14px')
-                .style('font-weight', '500')
+                .style('font-weight', '600')
                 .style('opacity', 1)
+                .style('font-family', '"Courier New", Georgia')
                 .text(d => d.skill_name);
 
             const xAxis = d3.axisBottom(xScale).ticks(5).tickFormat(d => d);
@@ -156,11 +159,6 @@ export async function createSkillsChart() {
                 .style('fill', TEXT_SECONDARY)
                 .style('font-size', '14px')
                 .text('Technical Skills');
-
-            bars.transition()
-                .delay(500)
-                .duration(SKILLS_TRANSITION_DURATION)
-                .attr('width', d => xScale(d.number_of_professionals));
         }
 
         // Load chart with first profession
