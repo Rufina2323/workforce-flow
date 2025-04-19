@@ -14,7 +14,7 @@ export async function createTransitionChart() {
     .append("g");
 
   // Load group layout from JSON
-  const groups = await d3.json("/data/groups_circle_layout.json");
+  const groups = await d3.json("/data/groups.json");
   Object.keys(groups).forEach(k => {
     groups[k].cnt = 0;
     // Scale down positions to better fit view
