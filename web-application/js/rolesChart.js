@@ -74,16 +74,16 @@ export async function createRolesChart() {
         const colorScale = d3.scaleOrdinal()
             .domain(currentYearData.map(d => d.profession_name))
             .range([
-                '#7ED321',
-                '#98D965',
-                '#5DA617',
-                '#B8E986',
-                '#6b6f76',
-                '#8A8E94',
-                '#4A4D52',
-                '#AAB0B5',
-                '#69B82E',
-                '#9CA0A4'
+                PRIMARY_COLOR,    // primary green
+                '#9B89B3',       // dusty lavender
+                '#45B7AF',       // seafoam
+                '#F6B352',       // honey yellow
+                '#F68657',       // coral
+                '#84B1ED',       // powder blue
+                '#B7C3F3',       // periwinkle
+                '#DD7596',       // rose pink
+                '#66C7B4',       // mint
+                '#8A9B7A'        // sage
             ]);
 
         const pie = d3.pie()

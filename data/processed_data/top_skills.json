@@ -1,16 +1,454 @@
 {
-    "year": 2022,
-    "top_skills": [
-      {"skill_name": "Python", "number_of_professionals": 540},
-      {"skill_name": "JavaScript", "number_of_professionals": 500},
-      {"skill_name": "Java", "number_of_professionals": 460},
-      {"skill_name": "SQL", "number_of_professionals": 450},
-      {"skill_name": "C#", "number_of_professionals": 420},
-      {"skill_name": "Machine Learning", "number_of_professionals": 400},
-      {"skill_name": "Cloud Computing", "number_of_professionals": 380},
-      {"skill_name": "DevOps", "number_of_professionals": 350},
-      {"skill_name": "Cybersecurity", "number_of_professionals": 320},
-      {"skill_name": "Data Analysis", "number_of_professionals": 300}
-    ]
+  "professions": [
+    {
+      "profession_name": "Software Engineering",
+      "top_skills": [
+        {
+          "skill_name": "Kubernetes",
+          "number_of_professionals": 305
+        },
+        {
+          "skill_name": "UI/UX Design",
+          "number_of_professionals": 556
+        },
+        {
+          "skill_name": "Cloud Computing",
+          "number_of_professionals": 331
+        },
+        {
+          "skill_name": "Project Management",
+          "number_of_professionals": 580
+        },
+        {
+          "skill_name": "Docker",
+          "number_of_professionals": 423
+        },
+        {
+          "skill_name": "Figma",
+          "number_of_professionals": 391
+        },
+        {
+          "skill_name": "Data Analysis",
+          "number_of_professionals": 457
+        },
+        {
+          "skill_name": "JavaScript",
+          "number_of_professionals": 485
+        },
+        {
+          "skill_name": "DevOps",
+          "number_of_professionals": 564
+        },
+        {
+          "skill_name": "Java",
+          "number_of_professionals": 481
+        }
+      ]
+    },
+    {
+      "profession_name": "Data & Analytics",
+      "top_skills": [
+        {
+          "skill_name": "Networking",
+          "number_of_professionals": 349
+        },
+        {
+          "skill_name": "UI/UX Design",
+          "number_of_professionals": 459
+        },
+        {
+          "skill_name": "Machine Learning",
+          "number_of_professionals": 330
+        },
+        {
+          "skill_name": "Figma",
+          "number_of_professionals": 529
+        },
+        {
+          "skill_name": "Project Management",
+          "number_of_professionals": 535
+        },
+        {
+          "skill_name": "Java",
+          "number_of_professionals": 313
+        },
+        {
+          "skill_name": "Cybersecurity",
+          "number_of_professionals": 389
+        },
+        {
+          "skill_name": "Linux",
+          "number_of_professionals": 516
+        },
+        {
+          "skill_name": "React",
+          "number_of_professionals": 421
+        },
+        {
+          "skill_name": "AWS",
+          "number_of_professionals": 550
+        }
+      ]
+    },
+    {
+      "profession_name": "Infrastructure & Networks",
+      "top_skills": [
+        {
+          "skill_name": "Machine Learning",
+          "number_of_professionals": 346
+        },
+        {
+          "skill_name": "JavaScript",
+          "number_of_professionals": 574
+        },
+        {
+          "skill_name": "Data Analysis",
+          "number_of_professionals": 341
+        },
+        {
+          "skill_name": "Networking",
+          "number_of_professionals": 368
+        },
+        {
+          "skill_name": "Cloud Computing",
+          "number_of_professionals": 411
+        },
+        {
+          "skill_name": "Kubernetes",
+          "number_of_professionals": 479
+        },
+        {
+          "skill_name": "Java",
+          "number_of_professionals": 408
+        },
+        {
+          "skill_name": "Azure",
+          "number_of_professionals": 264
+        },
+        {
+          "skill_name": "React",
+          "number_of_professionals": 422
+        },
+        {
+          "skill_name": "UI/UX Design",
+          "number_of_professionals": 453
+        }
+      ]
+    },
+    {
+      "profession_name": "Cloud & DevOps",
+      "top_skills": [
+        {
+          "skill_name": "Kubernetes",
+          "number_of_professionals": 339
+        },
+        {
+          "skill_name": "Data Analysis",
+          "number_of_professionals": 577
+        },
+        {
+          "skill_name": "AWS",
+          "number_of_professionals": 276
+        },
+        {
+          "skill_name": "Project Management",
+          "number_of_professionals": 544
+        },
+        {
+          "skill_name": "DevOps",
+          "number_of_professionals": 265
+        },
+        {
+          "skill_name": "Networking",
+          "number_of_professionals": 394
+        },
+        {
+          "skill_name": "UI/UX Design",
+          "number_of_professionals": 492
+        },
+        {
+          "skill_name": "Machine Learning",
+          "number_of_professionals": 468
+        },
+        {
+          "skill_name": "Cloud Computing",
+          "number_of_professionals": 306
+        },
+        {
+          "skill_name": "Linux",
+          "number_of_professionals": 335
+        }
+      ]
+    },
+    {
+      "profession_name": "Cybersecurity",
+      "top_skills": [
+        {
+          "skill_name": "Data Analysis",
+          "number_of_professionals": 588
+        },
+        {
+          "skill_name": "Linux",
+          "number_of_professionals": 599
+        },
+        {
+          "skill_name": "Cybersecurity",
+          "number_of_professionals": 522
+        },
+        {
+          "skill_name": "Cloud Computing",
+          "number_of_professionals": 528
+        },
+        {
+          "skill_name": "Kubernetes",
+          "number_of_professionals": 441
+        },
+        {
+          "skill_name": "React",
+          "number_of_professionals": 466
+        },
+        {
+          "skill_name": "AWS",
+          "number_of_professionals": 265
+        },
+        {
+          "skill_name": "Python",
+          "number_of_professionals": 326
+        },
+        {
+          "skill_name": "Networking",
+          "number_of_professionals": 431
+        },
+        {
+          "skill_name": "DevOps",
+          "number_of_professionals": 526
+        }
+      ]
+    },
+    {
+      "profession_name": "Machine Learning & AI",
+      "top_skills": [
+        {
+          "skill_name": "React",
+          "number_of_professionals": 569
+        },
+        {
+          "skill_name": "Project Management",
+          "number_of_professionals": 438
+        },
+        {
+          "skill_name": "AWS",
+          "number_of_professionals": 446
+        },
+        {
+          "skill_name": "Cybersecurity",
+          "number_of_professionals": 449
+        },
+        {
+          "skill_name": "Linux",
+          "number_of_professionals": 563
+        },
+        {
+          "skill_name": "Networking",
+          "number_of_professionals": 496
+        },
+        {
+          "skill_name": "Docker",
+          "number_of_professionals": 594
+        },
+        {
+          "skill_name": "Azure",
+          "number_of_professionals": 440
+        },
+        {
+          "skill_name": "C#",
+          "number_of_professionals": 507
+        },
+        {
+          "skill_name": "SQL",
+          "number_of_professionals": 377
+        }
+      ]
+    },
+    {
+      "profession_name": "Product & Project Management",
+      "top_skills": [
+        {
+          "skill_name": "Kubernetes",
+          "number_of_professionals": 565
+        },
+        {
+          "skill_name": "Figma",
+          "number_of_professionals": 349
+        },
+        {
+          "skill_name": "C#",
+          "number_of_professionals": 526
+        },
+        {
+          "skill_name": "React",
+          "number_of_professionals": 295
+        },
+        {
+          "skill_name": "Machine Learning",
+          "number_of_professionals": 392
+        },
+        {
+          "skill_name": "Cybersecurity",
+          "number_of_professionals": 407
+        },
+        {
+          "skill_name": "AWS",
+          "number_of_professionals": 379
+        },
+        {
+          "skill_name": "Data Analysis",
+          "number_of_professionals": 497
+        },
+        {
+          "skill_name": "Docker",
+          "number_of_professionals": 278
+        },
+        {
+          "skill_name": "Project Management",
+          "number_of_professionals": 488
+        }
+      ]
+    },
+    {
+      "profession_name": "IT Support & Administration",
+      "top_skills": [
+        {
+          "skill_name": "Azure",
+          "number_of_professionals": 561
+        },
+        {
+          "skill_name": "Figma",
+          "number_of_professionals": 416
+        },
+        {
+          "skill_name": "Java",
+          "number_of_professionals": 491
+        },
+        {
+          "skill_name": "Kubernetes",
+          "number_of_professionals": 346
+        },
+        {
+          "skill_name": "Cloud Computing",
+          "number_of_professionals": 474
+        },
+        {
+          "skill_name": "Linux",
+          "number_of_professionals": 400
+        },
+        {
+          "skill_name": "Project Management",
+          "number_of_professionals": 384
+        },
+        {
+          "skill_name": "React",
+          "number_of_professionals": 447
+        },
+        {
+          "skill_name": "JavaScript",
+          "number_of_professionals": 536
+        },
+        {
+          "skill_name": "Python",
+          "number_of_professionals": 295
+        }
+      ]
+    },
+    {
+      "profession_name": "UI/UX & Design",
+      "top_skills": [
+        {
+          "skill_name": "Python",
+          "number_of_professionals": 351
+        },
+        {
+          "skill_name": "Figma",
+          "number_of_professionals": 276
+        },
+        {
+          "skill_name": "Azure",
+          "number_of_professionals": 496
+        },
+        {
+          "skill_name": "AWS",
+          "number_of_professionals": 594
+        },
+        {
+          "skill_name": "Java",
+          "number_of_professionals": 570
+        },
+        {
+          "skill_name": "SQL",
+          "number_of_professionals": 506
+        },
+        {
+          "skill_name": "React",
+          "number_of_professionals": 277
+        },
+        {
+          "skill_name": "Machine Learning",
+          "number_of_professionals": 424
+        },
+        {
+          "skill_name": "JavaScript",
+          "number_of_professionals": 456
+        },
+        {
+          "skill_name": "Docker",
+          "number_of_professionals": 488
+        }
+      ]
+    },
+    {
+      "profession_name": "Other",
+      "top_skills": [
+        {
+          "skill_name": "Azure",
+          "number_of_professionals": 505
+        },
+        {
+          "skill_name": "Cloud Computing",
+          "number_of_professionals": 469
+        },
+        {
+          "skill_name": "Cybersecurity",
+          "number_of_professionals": 525
+        },
+        {
+          "skill_name": "Data Analysis",
+          "number_of_professionals": 399
+        },
+        {
+          "skill_name": "SQL",
+          "number_of_professionals": 470
+        },
+        {
+          "skill_name": "JavaScript",
+          "number_of_professionals": 274
+        },
+        {
+          "skill_name": "Python",
+          "number_of_professionals": 267
+        },
+        {
+          "skill_name": "Docker",
+          "number_of_professionals": 494
+        },
+        {
+          "skill_name": "DevOps",
+          "number_of_professionals": 418
+        },
+        {
+          "skill_name": "UI/UX Design",
+          "number_of_professionals": 253
+        }
+      ]
+    }
+  ]
 }
-  
