@@ -38,7 +38,7 @@ export async function createSkillsChart() {
             .style('border', '1px solid #e0e0e0')
             .style('color', TEXT_COLOR)
             .style('background', 'white')
-            .style('font-family', '"Courier New", Georgia')
+            .style('font-family', '"Roboto Mono", monospace')
             .on('change', function () {
                 updateChart(this.value);
             });
@@ -92,7 +92,7 @@ export async function createSkillsChart() {
                 .style('font-size', '16px')
                 .style('font-weight', '700')
                 .style('fill', TEXT_COLOR)
-                .style('font-family', '"Courier New", Georgia')
+                .style('font-family', '"Roboto Mono", monospace')
                 .text(`${professionName} - Top Technical Skills`);
 
             const bars = g.selectAll('.bar')
@@ -131,8 +131,7 @@ export async function createSkillsChart() {
                 .attr('fill', TEXT_COLOR)
                 .style('font-size', '14px')
                 .style('font-weight', '600')
-                .style('opacity', 1)
-                .style('font-family', '"Courier New", Georgia')
+                .style('font-family', '"Roboto Mono", monospace')
                 .text(d => d.skill_name);
 
             const xAxis = d3.axisBottom(xScale).ticks(5).tickFormat(d => d);
@@ -148,6 +147,7 @@ export async function createSkillsChart() {
                 .attr('text-anchor', 'middle')
                 .style('fill', TEXT_SECONDARY)
                 .style('font-size', '14px')
+                .style('font-family', '"Roboto Mono", monospace')
                 .text('Number of Professionals');
 
             g.append('text')
@@ -158,6 +158,7 @@ export async function createSkillsChart() {
                 .attr('text-anchor', 'middle')
                 .style('fill', TEXT_SECONDARY)
                 .style('font-size', '14px')
+                .style('font-family', '"Roboto Mono", monospace')
                 .text('Technical Skills');
         }
 

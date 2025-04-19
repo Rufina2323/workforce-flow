@@ -75,17 +75,17 @@ export async function createRolesChart() {
         const colorScale = d3.scaleOrdinal()
             .domain(currentYearData.map(d => d.profession_name))
             .range([
-                PRIMARY_COLOR,    // primary green
-                '#9B89B3',       // dusty lavender
-                '#45B7AF',       // seafoam
-                '#F6B352',       // honey yellow
-                '#F68657',       // coral
-                '#84B1ED',       // powder blue
-                '#B7C3F3',       // periwinkle
-                '#DD7596',       // rose pink
-                '#66C7B4',       // mint
-                '#8A9B7A'        // sage
-            ]);
+                '#FFB37F',  
+                '#88E27B',  
+                '#FFF27A',  
+                '#81C7F5', 
+                '#9C97F7', 
+                '#F48484',  
+                '#C6C6C6',  
+                '#F9A1D0', 
+                '#7ED0E7', 
+                '#94E7B6'  
+            ]);            
 
         const pie = d3.pie()
             .value(d => d.number_of_professionals)
@@ -171,7 +171,7 @@ export async function createRolesChart() {
                 .style('font-size', '24px')
                 .style('font-weight', '600')
                 .style('fill', TEXT_COLOR)
-                .style('font-family', '"Courier New", Georgia')
+                .style('font-family', '"Roboto Mono", monospace')
                 .text(year);
 
             svg.selectAll('.legend').remove();
@@ -213,7 +213,7 @@ export async function createRolesChart() {
                 .attr('x', legendRectSize + 8)
                 .attr('y', 11)
                 .text(d => d.profession_name)
-                .style('font-family', '"Courier New", Georgia')
+                .style('font-family', '"Roboto Mono", monospace')
                 .style('font-size', '12px')
                 .style('font-weight', '600')
                 .style('fill', TEXT_SECONDARY)

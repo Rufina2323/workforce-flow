@@ -1,3 +1,6 @@
+/* Import Roboto Mono font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500;600;700&display=swap');
+
 :root {
     --primary-color: #7ED321;
     --text-color: #2e2e2e;
@@ -9,7 +12,7 @@
 }
 
 body {
-    font-family: "Courier New", Georgia;
+    font-family: "Roboto Mono", monospace;
     font-weight: 500;
     margin: 0;
     padding: 0;
@@ -35,7 +38,7 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 0 20px;
-    font-family: "Courier New", Georgia;
+    font-family: "Roboto Mono", monospace;
 }
 
 .logo {
@@ -69,7 +72,7 @@ body {
 .hero-content {
     max-width: 900px;
     padding: 0 20px;
-    font-family: "Courier New", Georgia;
+    font-family: "Roboto Mono", monospace;
 }
 
 .hero h1 {
@@ -108,7 +111,7 @@ body {
     padding: 30px;
     border-radius: 12px;
     box-shadow: var(--card-shadow);
-    font-family: "Courier New", Georgia;
+    font-family: "Roboto Mono", monospace;
 }
 
 .project-goals {
@@ -144,7 +147,7 @@ body {
     grid-template-columns: repeat(3, 1fr);
     gap: 30px;
     margin-top: 40px;
-    font-family: "Courier New", Georgia;
+    font-family: "Roboto Mono", monospace;
 }
 
 .stat-card {
@@ -229,7 +232,7 @@ body {
 
 .text-content-plain {
     padding: 20px;
-    font-family: "Courier New", Georgia;
+    font-family: "Roboto Mono", monospace;
 }
 
 .text-content-plain h3 {
@@ -289,7 +292,7 @@ body {
     text-align: center;
     box-shadow: var(--card-shadow);
     transition: transform 0.2s ease;
-    font-family: "Courier New", Georgia;
+    font-family: "Roboto Mono", monospace;
 }
 
 .team-member:hover {
@@ -374,7 +377,7 @@ body {
 }
 
 .time-display {
-    font-family: "Courier New", Georgia;
+    font-family: "Roboto Mono", monospace;
     background: rgba(255, 255, 255, 0.9);
     padding: 5px 10px;
     border-radius: 4px;
@@ -383,7 +386,7 @@ body {
 }
 
 .time-display-container {
-    font-family: "Courier New", Georgia;
+    font-family: "Roboto Mono", monospace;
 }
 
 .year-display {
@@ -406,12 +409,12 @@ body {
 }
 
 .year-selector {
-    font-family: "Courier New", Georgia;
+    font-family: "Roboto Mono", monospace;
     margin-bottom: 10px !important;
 }
 
 .year-selector select {
-    font-family: inherit;
+    font-family: "Roboto Mono", monospace;
     cursor: pointer;
     padding: 5px 10px;
     border-radius: 4px;
@@ -426,7 +429,7 @@ body {
 }
 
 .center-text {
-    font-family: "Courier New", Georgia;
+    font-family: "Roboto Mono", monospace;
     font-weight: 600;
 }
 

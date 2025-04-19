@@ -1,272 +1,170 @@
-[
-  {
-    "year": 2017,
-    "top_professions": [
-      {
-        "profession_name": "Software Engineering",
-        "number_of_professionals": 372
-      },
-      {
-        "profession_name": "Data & Analytics",
-        "number_of_professionals": 363
-      },
-      {
-        "profession_name": "Infrastructure & Networks",
-        "number_of_professionals": 442
-      },
-      {
-        "profession_name": "Cloud & DevOps",
-        "number_of_professionals": 371
-      },
-      {
-        "profession_name": "Cybersecurity",
-        "number_of_professionals": 581
-      },
-      {
-        "profession_name": "Machine Learning & AI",
-        "number_of_professionals": 499
-      },
-      {
-        "profession_name": "Product & Project Management",
-        "number_of_professionals": 542
-      },
-      {
-        "profession_name": "IT Support & Administration",
-        "number_of_professionals": 532
-      },
-      {
-        "profession_name": "UI/UX & Design",
-        "number_of_professionals": 496
-      },
-      {
-        "profession_name": "Other",
-        "number_of_professionals": 151
-      }
-    ]
-  },
-  {
-    "year": 2018,
-    "top_professions": [
-      {
-        "profession_name": "Software Engineering",
-        "number_of_professionals": 612
-      },
-      {
-        "profession_name": "Data & Analytics",
-        "number_of_professionals": 447
-      },
-      {
-        "profession_name": "Infrastructure & Networks",
-        "number_of_professionals": 446
-      },
-      {
-        "profession_name": "Cloud & DevOps",
-        "number_of_professionals": 573
-      },
-      {
-        "profession_name": "Cybersecurity",
-        "number_of_professionals": 437
-      },
-      {
-        "profession_name": "Machine Learning & AI",
-        "number_of_professionals": 502
-      },
-      {
-        "profession_name": "Product & Project Management",
-        "number_of_professionals": 524
-      },
-      {
-        "profession_name": "IT Support & Administration",
-        "number_of_professionals": 397
-      },
-      {
-        "profession_name": "UI/UX & Design",
-        "number_of_professionals": 495
-      },
-      {
-        "profession_name": "Other",
-        "number_of_professionals": 223
-      }
-    ]
-  },
-  {
-    "year": 2019,
-    "top_professions": [
-      {
-        "profession_name": "Software Engineering",
-        "number_of_professionals": 488
-      },
-      {
-        "profession_name": "Data & Analytics",
-        "number_of_professionals": 596
-      },
-      {
-        "profession_name": "Infrastructure & Networks",
-        "number_of_professionals": 399
-      },
-      {
-        "profession_name": "Cloud & DevOps",
-        "number_of_professionals": 351
-      },
-      {
-        "profession_name": "Cybersecurity",
-        "number_of_professionals": 452
-      },
-      {
-        "profession_name": "Machine Learning & AI",
-        "number_of_professionals": 597
-      },
-      {
-        "profession_name": "Product & Project Management",
-        "number_of_professionals": 509
-      },
-      {
-        "profession_name": "IT Support & Administration",
-        "number_of_professionals": 502
-      },
-      {
-        "profession_name": "UI/UX & Design",
-        "number_of_professionals": 404
-      },
-      {
-        "profession_name": "Other",
-        "number_of_professionals": 157
-      }
-    ]
-  },
-  {
-    "year": 2020,
-    "top_professions": [
-      {
-        "profession_name": "Software Engineering",
-        "number_of_professionals": 413
-      },
-      {
-        "profession_name": "Data & Analytics",
-        "number_of_professionals": 594
-      },
-      {
-        "profession_name": "Infrastructure & Networks",
-        "number_of_professionals": 582
-      },
-      {
-        "profession_name": "Cloud & DevOps",
-        "number_of_professionals": 614
-      },
-      {
-        "profession_name": "Cybersecurity",
-        "number_of_professionals": 408
-      },
-      {
-        "profession_name": "Machine Learning & AI",
-        "number_of_professionals": 499
-      },
-      {
-        "profession_name": "Product & Project Management",
-        "number_of_professionals": 614
-      },
-      {
-        "profession_name": "IT Support & Administration",
-        "number_of_professionals": 443
-      },
-      {
-        "profession_name": "UI/UX & Design",
-        "number_of_professionals": 502
-      },
-      {
-        "profession_name": "Other",
-        "number_of_professionals": 187
-      }
-    ]
-  },
-  {
-    "year": 2021,
-    "top_professions": [
-      {
-        "profession_name": "Software Engineering",
-        "number_of_professionals": 419
-      },
-      {
-        "profession_name": "Data & Analytics",
-        "number_of_professionals": 611
-      },
-      {
-        "profession_name": "Infrastructure & Networks",
-        "number_of_professionals": 590
-      },
-      {
-        "profession_name": "Cloud & DevOps",
-        "number_of_professionals": 378
-      },
-      {
-        "profession_name": "Cybersecurity",
-        "number_of_professionals": 590
-      },
-      {
-        "profession_name": "Machine Learning & AI",
-        "number_of_professionals": 526
-      },
-      {
-        "profession_name": "Product & Project Management",
-        "number_of_professionals": 355
-      },
-      {
-        "profession_name": "IT Support & Administration",
-        "number_of_professionals": 605
-      },
-      {
-        "profession_name": "UI/UX & Design",
-        "number_of_professionals": 389
-      },
-      {
-        "profession_name": "Other",
-        "number_of_professionals": 216
-      }
-    ]
-  },
-  {
-    "year": 2022,
-    "top_professions": [
-      {
-        "profession_name": "Software Engineering",
-        "number_of_professionals": 483
-      },
-      {
-        "profession_name": "Data & Analytics",
-        "number_of_professionals": 383
-      },
-      {
-        "profession_name": "Infrastructure & Networks",
-        "number_of_professionals": 543
-      },
-      {
-        "profession_name": "Cloud & DevOps",
-        "number_of_professionals": 496
-      },
-      {
-        "profession_name": "Cybersecurity",
-        "number_of_professionals": 529
-      },
-      {
-        "profession_name": "Machine Learning & AI",
-        "number_of_professionals": 461
-      },
-      {
-        "profession_name": "Product & Project Management",
-        "number_of_professionals": 391
-      },
-      {
-        "profession_name": "IT Support & Administration",
-        "number_of_professionals": 563
-      },
-      {
-        "profession_name": "UI/UX & Design",
-        "number_of_professionals": 450
-      },
-      {
-        "profession_name": "Other",
-        "number_of_professionals": 212
-      }
-    ]
-  }
-]
+{
+    "2022": {
+        "Software Engineering": 1472,
+        "Data & Analytics": 164,
+        "Infrastructure & Networks": 9,
+        "Cloud & DevOps": 152,
+        "Cybersecurity": 32,
+        "Machine Learning & AI": 120,
+        "Product & Project Management": 247,
+        "IT Support & Administration": 340,
+        "UI/UX & Design": 211,
+        "Other": 214
+    },
+    "2023": {
+        "Software Engineering": 1439,
+        "Data & Analytics": 160,
+        "Infrastructure & Networks": 11,
+        "Cloud & DevOps": 169,
+        "Cybersecurity": 39,
+        "Machine Learning & AI": 147,
+        "Product & Project Management": 251,
+        "IT Support & Administration": 337,
+        "UI/UX & Design": 197,
+        "Other": 215
+    },
+    "2016": {
+        "Software Engineering": 336,
+        "Data & Analytics": 19,
+        "Infrastructure & Networks": 1,
+        "Cloud & DevOps": 35,
+        "Cybersecurity": 16,
+        "Machine Learning & AI": 16,
+        "Product & Project Management": 106,
+        "IT Support & Administration": 213,
+        "UI/UX & Design": 70,
+        "Other": 107
+    },
+    "2015": {
+        "Software Engineering": 260,
+        "Data & Analytics": 14,
+        "Infrastructure & Networks": 3,
+        "Cloud & DevOps": 23,
+        "Cybersecurity": 16,
+        "Machine Learning & AI": 11,
+        "Product & Project Management": 88,
+        "IT Support & Administration": 211,
+        "UI/UX & Design": 56,
+        "Other": 98
+    },
+    "2012": {
+        "Software Engineering": 147,
+        "Data & Analytics": 14,
+        "Infrastructure & Networks": 1,
+        "Cloud & DevOps": 12,
+        "Cybersecurity": 8,
+        "Machine Learning & AI": 5,
+        "Product & Project Management": 59,
+        "IT Support & Administration": 135,
+        "UI/UX & Design": 24,
+        "Other": 63
+    },
+    "2013": {
+        "Software Engineering": 177,
+        "Data & Analytics": 16,
+        "Infrastructure & Networks": 1,
+        "Cloud & DevOps": 18,
+        "Cybersecurity": 9,
+        "Machine Learning & AI": 8,
+        "Product & Project Management": 73,
+        "IT Support & Administration": 156,
+        "UI/UX & Design": 33,
+        "Other": 76
+    },
+    "2014": {
+        "Software Engineering": 218,
+        "Data & Analytics": 17,
+        "Infrastructure & Networks": 2,
+        "Cloud & DevOps": 18,
+        "Cybersecurity": 12,
+        "Machine Learning & AI": 7,
+        "Product & Project Management": 78,
+        "IT Support & Administration": 174,
+        "UI/UX & Design": 45,
+        "Other": 96
+    },
+    "2024": {
+        "Software Engineering": 1404,
+        "Data & Analytics": 153,
+        "Infrastructure & Networks": 9,
+        "Cloud & DevOps": 152,
+        "Cybersecurity": 41,
+        "Machine Learning & AI": 135,
+        "Product & Project Management": 236,
+        "IT Support & Administration": 330,
+        "UI/UX & Design": 183,
+        "Other": 201
+    },
+    "2025": {
+        "Software Engineering": 1128,
+        "Data & Analytics": 118,
+        "Infrastructure & Networks": 8,
+        "Cloud & DevOps": 118,
+        "Cybersecurity": 33,
+        "Machine Learning & AI": 98,
+        "Product & Project Management": 172,
+        "IT Support & Administration": 240,
+        "UI/UX & Design": 144,
+        "Other": 193
+    },
+    "2021": {
+        "Software Engineering": 1354,
+        "Data & Analytics": 154,
+        "Infrastructure & Networks": 10,
+        "Cloud & DevOps": 120,
+        "Cybersecurity": 31,
+        "Machine Learning & AI": 101,
+        "Product & Project Management": 250,
+        "IT Support & Administration": 354,
+        "UI/UX & Design": 201,
+        "Other": 208
+    },
+    "2019": {
+        "Software Engineering": 804,
+        "Data & Analytics": 95,
+        "Infrastructure & Networks": 7,
+        "Cloud & DevOps": 77,
+        "Cybersecurity": 27,
+        "Machine Learning & AI": 47,
+        "Product & Project Management": 175,
+        "IT Support & Administration": 287,
+        "UI/UX & Design": 145,
+        "Other": 159
+    },
+    "2020": {
+        "Software Engineering": 1057,
+        "Data & Analytics": 129,
+        "Infrastructure & Networks": 7,
+        "Cloud & DevOps": 89,
+        "Cybersecurity": 31,
+        "Machine Learning & AI": 68,
+        "Product & Project Management": 201,
+        "IT Support & Administration": 324,
+        "UI/UX & Design": 193,
+        "Other": 180
+    },
+    "2017": {
+        "Software Engineering": 495,
+        "Data & Analytics": 45,
+        "Infrastructure & Networks": 3,
+        "Cloud & DevOps": 43,
+        "Cybersecurity": 13,
+        "Machine Learning & AI": 20,
+        "Product & Project Management": 133,
+        "IT Support & Administration": 229,
+        "UI/UX & Design": 93,
+        "Other": 112
+    },
+    "2018": {
+        "Software Engineering": 620,
+        "Data & Analytics": 69,
+        "Infrastructure & Networks": 3,
+        "Cloud & DevOps": 65,
+        "Cybersecurity": 22,
+        "Machine Learning & AI": 35,
+        "Product & Project Management": 153,
+        "IT Support & Administration": 243,
+        "UI/UX & Design": 108,
+        "Other": 132
+    }
+}

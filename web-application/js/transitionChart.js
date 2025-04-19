@@ -57,7 +57,7 @@ export async function createTransitionChart() {
     .style("display", "flex")
     .style("justify-content", "center")
     .style("gap", "10px")
-    .style("font-family", '"Courier New", Georgia');
+    .style("font-family", '"Roboto Mono", monospace');
 
   // Add play/pause button as an icon
   const playButton = timeDisplayContainer
@@ -286,7 +286,7 @@ export async function createTransitionChart() {
     .style("font-size", "13px")
     .style("fill", "#444")
     .style("font-weight", "600")
-    .style("font-family", '"Courier New", Georgia')
+    .style("font-family", '"Roboto Mono", monospace')
     .text(([name]) => name);
 
   function updateTimeDisplay() {
