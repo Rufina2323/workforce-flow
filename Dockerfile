@@ -7,6 +7,8 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 RUN mkdir -p /app/data
 
+COPY data/processed_data/ /app/data/
+
 COPY web-application/ .
 
 EXPOSE 8000
