@@ -149,7 +149,7 @@ export async function createTransitionChart() {
     .style("fill", "none");
 
   let isPlaying = true; // Start playing by default
-  let currentDate = new Date(2018, 0); // Start from January 2018
+  let currentDate = new Date(2012, 0); // Start from January 2018
 
   // Update play button state to show pause icon initially
   playPath.style("display", "none");
@@ -160,6 +160,17 @@ export async function createTransitionChart() {
     .attr("width", width)
     .attr("height", height)
     .append("g");
+
+  // Add tooltip div
+  const tooltip = d3.select(container)
+    .append("div")
+    .attr("class", "tooltip")
+    .style("opacity", 0)
+    .style("position", "absolute")
+    .style("pointer-events", "none")
+    .style("background", "rgba(255, 255, 255, 0.95)")
+    .style("padding", "8px")
+    .style("border-radius", "4px");
 
   // Load group layout from JSON
   const groups = await d3.json("/data/groups.json");
@@ -186,7 +197,9 @@ export async function createTransitionChart() {
   });
 
   const nodes = Object.keys(people).map(pid => {
-    const stage = people[pid][0];
+    // Найдём stage с work_counter === 0
+    const startStageIndex = people[pid].findIndex(stage => stage.work_counter === 0);
+    const stage = people[pid][startStageIndex];
     groups[stage.grp].cnt += 1;
     return {
       id: "node" + pid,
@@ -196,7 +209,7 @@ export async function createTransitionChart() {
       color: groups[stage.grp].color,
       group: stage.grp,
       timeleft: stage.duration,
-      istage: 0,
+      istage: startStageIndex,
       stages: people[pid]
     };
   });
@@ -250,7 +263,41 @@ export async function createTransitionChart() {
     .join("circle")
       .attr("cx", d => d.x)
       .attr("cy", d => d.y)
-      .attr("fill", d => d.color);
+      .attr("fill", d => d.color)
+      .on("mouseover", (event, d) => {
+        const currentStage = d.stages[d.istage];
+        const years = Math.floor(currentStage.duration / 12);
+        const months = currentStage.duration % 12;
+        const durationText = currentStage.duration === -99 
+          ? "Current position" 
+          : `${years > 0 ? years + (years === 1 ? ' year ' : ' years ') : ''}${months > 0 ? months + (months === 1 ? ' month' : ' months') : ''}`;
+
+        tooltip.transition()
+          .duration(200)
+          .style("opacity", 1);
+        tooltip.html(`
+          <div style="padding: 8px;">
+            <strong>${currentStage.name}</strong>
+            <div><strong>Location:</strong> ${currentStage.location}</div>
+            ${currentStage.job_position ? `<div><strong>Position:</strong> ${currentStage.job_position}</div>` : ''}
+            ${currentStage.company_name ? `<div><strong>Company:</strong> ${currentStage.company_name}</div>` : ''}
+            <div><strong>Group:</strong> ${currentStage.grp}</div>
+            <div><strong>Duration:</strong> ${durationText}</div>
+          </div>
+        `)
+        .style("left", (event.pageX + 10) + "px")
+        .style("top", (event.pageY - 10) + "px");
+      })
+      .on("mousemove", (event) => {
+        tooltip
+          .style("left", (event.pageX + 10) + "px")
+          .style("top", (event.pageY - 10) + "px");
+      })
+      .on("mouseout", () => {
+        tooltip.transition()
+          .duration(500)
+          .style("opacity", 0);
+      });
 
   circle.transition()
     .delay((d, i) => i * 5)
@@ -304,7 +351,7 @@ export async function createTransitionChart() {
 
   function resetSimulation() {
     // Reset date to January 2018
-    currentDate = new Date(2018, 0);
+    currentDate = new Date(2012, 0);
     updateTimeDisplay();
 
     // Reset all nodes to their initial state
@@ -329,8 +376,15 @@ export async function createTransitionChart() {
 
   function timer() {
     if (isPlaying) {
+      let allTerminated = true;
+
       nodes.forEach(o => {
+        if (o.timeleft !== -99) {
+          allTerminated = false;
+        }
+
         o.timeleft -= 1;
+
         if (o.timeleft === 0 && o.istage < o.stages.length - 1) {
           groups[o.group].cnt -= 1;
           o.istage += 1;
@@ -340,15 +394,16 @@ export async function createTransitionChart() {
         }
       });
 
-      // Update the date
-      currentDate.setMonth(currentDate.getMonth() + 1);
-      if (currentDate > new Date(2023, 11)) { // Reset after December 2023
-        currentDate = new Date(2018, 0);
+      if (allTerminated) {
+        togglePlay();
+        return;
       }
-      updateTimeDisplay();
 
+      currentDate.setMonth(currentDate.getMonth() + 1);
+      updateTimeDisplay();
       time_so_far += 1;
     }
+
     d3.timeout(timer, 500);
   }
 
