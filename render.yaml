@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: workforce-flow-web
+    env: docker
+    repo: https://github.com/Rufina2323/workforce-flow
+    region: oregon
+    plan: free
+    branch: main
+    rootDir: web-application
+    dockerContext: .
+    dockerfilePath: Dockerfile
+    autoDeploy: true
