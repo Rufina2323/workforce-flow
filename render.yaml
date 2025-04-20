@@ -6,5 +6,5 @@ services:
     branch: main
     rootDir: . 
     dockerContext: .
-    dockerfilePath: web-application/Dockerfile
+    dockerfilePath: ./Dockerfile
     autoDeploy: true
