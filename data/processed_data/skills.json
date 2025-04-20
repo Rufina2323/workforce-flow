@@ -5,43 +5,43 @@
             "top_skills": [
                 {
                     "skill_name": "Python",
-                    "number_of_professionals": 5800
+                    "number_of_professionals": 742
                 },
                 {
                     "skill_name": "Git",
-                    "number_of_professionals": 4740
+                    "number_of_professionals": 466
                 },
                 {
                     "skill_name": "SQL",
-                    "number_of_professionals": 4362
+                    "number_of_professionals": 440
                 },
                 {
                     "skill_name": "Java",
-                    "number_of_professionals": 4290
+                    "number_of_professionals": 421
                 },
                 {
                     "skill_name": "JavaScript",
-                    "number_of_professionals": 3513
-                },
-                {
-                    "skill_name": "PostgreSQL",
-                    "number_of_professionals": 3189
+                    "number_of_professionals": 332
                 },
                 {
                     "skill_name": "C++",
-                    "number_of_professionals": 3051
+                    "number_of_professionals": 329
+                },
+                {
+                    "skill_name": "PostgreSQL",
+                    "number_of_professionals": 316
                 },
                 {
                     "skill_name": "Linux",
-                    "number_of_professionals": 2772
+                    "number_of_professionals": 276
                 },
                 {
                     "skill_name": "Docker",
-                    "number_of_professionals": 2385
+                    "number_of_professionals": 224
                 },
                 {
-                    "skill_name": "Software Development",
-                    "number_of_professionals": 2226
+                    "skill_name": "Machine Learning",
+                    "number_of_professionals": 221
                 }
             ]
         },
@@ -50,43 +50,43 @@
             "top_skills": [
                 {
                     "skill_name": "Python",
-                    "number_of_professionals": 853
+                    "number_of_professionals": 199
                 },
                 {
                     "skill_name": "SQL",
-                    "number_of_professionals": 570
+                    "number_of_professionals": 112
                 },
                 {
                     "skill_name": "Machine Learning",
-                    "number_of_professionals": 567
-                },
-                {
-                    "skill_name": "Data Analysis",
-                    "number_of_professionals": 336
-                },
-                {
-                    "skill_name": "Java",
-                    "number_of_professionals": 327
+                    "number_of_professionals": 97
                 },
                 {
                     "skill_name": "Git",
-                    "number_of_professionals": 309
+                    "number_of_professionals": 67
+                },
+                {
+                    "skill_name": "Data Analysis",
+                    "number_of_professionals": 59
+                },
+                {
+                    "skill_name": "Java",
+                    "number_of_professionals": 56
                 },
                 {
                     "skill_name": "PyTorch",
-                    "number_of_professionals": 285
-                },
-                {
-                    "skill_name": "Deep Learning",
-                    "number_of_professionals": 285
+                    "number_of_professionals": 54
                 },
                 {
                     "skill_name": "C++",
-                    "number_of_professionals": 282
+                    "number_of_professionals": 54
                 },
                 {
                     "skill_name": "Data Science",
-                    "number_of_professionals": 276
+                    "number_of_professionals": 50
+                },
+                {
+                    "skill_name": "Deep Learning",
+                    "number_of_professionals": 49
                 }
             ]
         },
@@ -95,43 +95,43 @@
             "top_skills": [
                 {
                     "skill_name": "Python",
-                    "number_of_professionals": 58
+                    "number_of_professionals": 22
                 },
                 {
                     "skill_name": "SQL",
-                    "number_of_professionals": 36
+                    "number_of_professionals": 12
                 },
                 {
                     "skill_name": "Machine Learning",
-                    "number_of_professionals": 36
-                },
-                {
-                    "skill_name": "Deep Learning",
-                    "number_of_professionals": 33
+                    "number_of_professionals": 11
                 },
                 {
                     "skill_name": "Linux",
-                    "number_of_professionals": 30
+                    "number_of_professionals": 10
+                },
+                {
+                    "skill_name": "Deep Learning",
+                    "number_of_professionals": 10
                 },
                 {
                     "skill_name": "C++",
-                    "number_of_professionals": 30
+                    "number_of_professionals": 10
                 },
                 {
                     "skill_name": "Git",
-                    "number_of_professionals": 27
+                    "number_of_professionals": 8
                 },
                 {
                     "skill_name": "PyTorch",
-                    "number_of_professionals": 21
+                    "number_of_professionals": 7
                 },
                 {
-                    "skill_name": "Research",
-                    "number_of_professionals": 21
+                    "skill_name": "Java",
+                    "number_of_professionals": 6
                 },
                 {
-                    "skill_name": "Data Analysis",
-                    "number_of_professionals": 21
+                    "skill_name": "Software Development",
+                    "number_of_professionals": 6
                 }
             ]
         },
@@ -140,43 +140,43 @@
             "top_skills": [
                 {
                     "skill_name": "Python",
-                    "number_of_professionals": 512
-                },
-                {
-                    "skill_name": "JavaScript",
-                    "number_of_professionals": 384
-                },
-                {
-                    "skill_name": "SQL",
-                    "number_of_professionals": 333
+                    "number_of_professionals": 136
                 },
                 {
                     "skill_name": "Git",
-                    "number_of_professionals": 333
+                    "number_of_professionals": 84
                 },
                 {
-                    "skill_name": "PostgreSQL",
-                    "number_of_professionals": 285
+                    "skill_name": "JavaScript",
+                    "number_of_professionals": 83
+                },
+                {
+                    "skill_name": "SQL",
+                    "number_of_professionals": 79
                 },
                 {
                     "skill_name": "Java",
-                    "number_of_professionals": 279
+                    "number_of_professionals": 68
                 },
                 {
-                    "skill_name": "Linux",
-                    "number_of_professionals": 258
-                },
-                {
-                    "skill_name": "Project Management",
-                    "number_of_professionals": 249
+                    "skill_name": "PostgreSQL",
+                    "number_of_professionals": 68
                 },
                 {
                     "skill_name": "C++",
-                    "number_of_professionals": 240
+                    "number_of_professionals": 57
+                },
+                {
+                    "skill_name": "Project Management",
+                    "number_of_professionals": 54
+                },
+                {
+                    "skill_name": "Linux",
+                    "number_of_professionals": 52
                 },
                 {
                     "skill_name": "Docker",
-                    "number_of_professionals": 210
+                    "number_of_professionals": 50
                 }
             ]
         },
@@ -185,43 +185,43 @@
             "top_skills": [
                 {
                     "skill_name": "Python",
-                    "number_of_professionals": 127
-                },
-                {
-                    "skill_name": "Project Management",
-                    "number_of_professionals": 96
+                    "number_of_professionals": 48
                 },
                 {
                     "skill_name": "Java",
-                    "number_of_professionals": 93
+                    "number_of_professionals": 26
                 },
                 {
                     "skill_name": "SQL",
-                    "number_of_professionals": 93
+                    "number_of_professionals": 26
                 },
                 {
                     "skill_name": "Linux",
-                    "number_of_professionals": 87
+                    "number_of_professionals": 24
                 },
                 {
-                    "skill_name": "Software Development",
-                    "number_of_professionals": 78
+                    "skill_name": "Project Management",
+                    "number_of_professionals": 24
                 },
                 {
                     "skill_name": "C++",
-                    "number_of_professionals": 75
+                    "number_of_professionals": 21
+                },
+                {
+                    "skill_name": "Software Development",
+                    "number_of_professionals": 20
+                },
+                {
+                    "skill_name": "PostgreSQL",
+                    "number_of_professionals": 18
                 },
                 {
                     "skill_name": "Leadership",
-                    "number_of_professionals": 72
+                    "number_of_professionals": 18
                 },
                 {
-                    "skill_name": "Management",
-                    "number_of_professionals": 63
-                },
-                {
-                    "skill_name": "Communication",
-                    "number_of_professionals": 57
+                    "skill_name": "Machine Learning",
+                    "number_of_professionals": 17
                 }
             ]
         },
@@ -230,43 +230,43 @@
             "top_skills": [
                 {
                     "skill_name": "Python",
-                    "number_of_professionals": 734
+                    "number_of_professionals": 193
                 },
                 {
                     "skill_name": "Machine Learning",
-                    "number_of_professionals": 501
-                },
-                {
-                    "skill_name": "PyTorch",
-                    "number_of_professionals": 423
+                    "number_of_professionals": 105
                 },
                 {
                     "skill_name": "C++",
-                    "number_of_professionals": 381
+                    "number_of_professionals": 82
+                },
+                {
+                    "skill_name": "PyTorch",
+                    "number_of_professionals": 82
                 },
                 {
                     "skill_name": "SQL",
-                    "number_of_professionals": 369
-                },
-                {
-                    "skill_name": "Deep Learning",
-                    "number_of_professionals": 342
-                },
-                {
-                    "skill_name": "Computer Vision",
-                    "number_of_professionals": 318
+                    "number_of_professionals": 77
                 },
                 {
                     "skill_name": "Java",
-                    "number_of_professionals": 315
+                    "number_of_professionals": 72
+                },
+                {
+                    "skill_name": "Computer Vision",
+                    "number_of_professionals": 69
                 },
                 {
                     "skill_name": "Git",
-                    "number_of_professionals": 315
+                    "number_of_professionals": 67
                 },
                 {
-                    "skill_name": "Natural Language Processing (NLP)",
-                    "number_of_professionals": 255
+                    "skill_name": "Deep Learning",
+                    "number_of_professionals": 65
+                },
+                {
+                    "skill_name": "Linux",
+                    "number_of_professionals": 55
                 }
             ]
         },
@@ -274,44 +274,44 @@
             "profession_name": "Product & Project Management",
             "top_skills": [
                 {
-                    "skill_name": "Project Management",
-                    "number_of_professionals": 840
-                },
-                {
                     "skill_name": "Python",
-                    "number_of_professionals": 697
-                },
-                {
-                    "skill_name": "Management",
-                    "number_of_professionals": 651
+                    "number_of_professionals": 159
                 },
                 {
                     "skill_name": "SQL",
-                    "number_of_professionals": 642
+                    "number_of_professionals": 114
+                },
+                {
+                    "skill_name": "Project Management",
+                    "number_of_professionals": 114
+                },
+                {
+                    "skill_name": "Management",
+                    "number_of_professionals": 82
+                },
+                {
+                    "skill_name": "Java",
+                    "number_of_professionals": 74
+                },
+                {
+                    "skill_name": "Git",
+                    "number_of_professionals": 69
+                },
+                {
+                    "skill_name": "C++",
+                    "number_of_professionals": 64
+                },
+                {
+                    "skill_name": "Linux",
+                    "number_of_professionals": 60
                 },
                 {
                     "skill_name": "Communication",
-                    "number_of_professionals": 492
-                },
-                {
-                    "skill_name": "Product Management",
-                    "number_of_professionals": 456
-                },
-                {
-                    "skill_name": "Agile Methodologies",
-                    "number_of_professionals": 426
+                    "number_of_professionals": 59
                 },
                 {
                     "skill_name": "Team Leadership",
-                    "number_of_professionals": 417
-                },
-                {
-                    "skill_name": "Leadership",
-                    "number_of_professionals": 414
-                },
-                {
-                    "skill_name": "Scrum",
-                    "number_of_professionals": 402
+                    "number_of_professionals": 58
                 }
             ]
         },
@@ -320,43 +320,43 @@
             "top_skills": [
                 {
                     "skill_name": "Python",
-                    "number_of_professionals": 1356
+                    "number_of_professionals": 334
                 },
                 {
                     "skill_name": "SQL",
-                    "number_of_professionals": 975
+                    "number_of_professionals": 196
                 },
                 {
                     "skill_name": "Java",
-                    "number_of_professionals": 894
-                },
-                {
-                    "skill_name": "Project Management",
-                    "number_of_professionals": 858
+                    "number_of_professionals": 184
                 },
                 {
                     "skill_name": "Git",
-                    "number_of_professionals": 846
+                    "number_of_professionals": 180
                 },
                 {
                     "skill_name": "C++",
-                    "number_of_professionals": 765
+                    "number_of_professionals": 153
+                },
+                {
+                    "skill_name": "Project Management",
+                    "number_of_professionals": 134
                 },
                 {
                     "skill_name": "Linux",
-                    "number_of_professionals": 714
+                    "number_of_professionals": 121
                 },
                 {
-                    "skill_name": "Management",
-                    "number_of_professionals": 690
-                },
-                {
-                    "skill_name": "Microsoft Office",
-                    "number_of_professionals": 678
+                    "skill_name": "JavaScript",
+                    "number_of_professionals": 120
                 },
                 {
                     "skill_name": "Machine Learning",
-                    "number_of_professionals": 657
+                    "number_of_professionals": 118
+                },
+                {
+                    "skill_name": "PostgreSQL",
+                    "number_of_professionals": 106
                 }
             ]
         },
@@ -365,43 +365,43 @@
             "top_skills": [
                 {
                     "skill_name": "Python",
-                    "number_of_professionals": 723
+                    "number_of_professionals": 184
                 },
                 {
                     "skill_name": "Git",
-                    "number_of_professionals": 543
+                    "number_of_professionals": 106
                 },
                 {
                     "skill_name": "C++",
-                    "number_of_professionals": 513
+                    "number_of_professionals": 98
                 },
                 {
                     "skill_name": "Java",
-                    "number_of_professionals": 471
+                    "number_of_professionals": 95
                 },
                 {
                     "skill_name": "SQL",
-                    "number_of_professionals": 393
+                    "number_of_professionals": 92
                 },
                 {
                     "skill_name": "JavaScript",
-                    "number_of_professionals": 354
-                },
-                {
-                    "skill_name": "C#",
-                    "number_of_professionals": 339
-                },
-                {
-                    "skill_name": "Software Development",
-                    "number_of_professionals": 327
+                    "number_of_professionals": 77
                 },
                 {
                     "skill_name": "Linux",
-                    "number_of_professionals": 318
+                    "number_of_professionals": 71
+                },
+                {
+                    "skill_name": "Software Development",
+                    "number_of_professionals": 65
+                },
+                {
+                    "skill_name": "C#",
+                    "number_of_professionals": 61
                 },
                 {
                     "skill_name": "Machine Learning",
-                    "number_of_professionals": 267
+                    "number_of_professionals": 57
                 }
             ]
         },
@@ -410,43 +410,43 @@
             "top_skills": [
                 {
                     "skill_name": "Python",
-                    "number_of_professionals": 807
-                },
-                {
-                    "skill_name": "C++",
-                    "number_of_professionals": 534
+                    "number_of_professionals": 198
                 },
                 {
                     "skill_name": "SQL",
-                    "number_of_professionals": 495
+                    "number_of_professionals": 105
+                },
+                {
+                    "skill_name": "C++",
+                    "number_of_professionals": 102
                 },
                 {
                     "skill_name": "Java",
-                    "number_of_professionals": 480
-                },
-                {
-                    "skill_name": "Machine Learning",
-                    "number_of_professionals": 447
-                },
-                {
-                    "skill_name": "Software Development",
-                    "number_of_professionals": 390
+                    "number_of_professionals": 92
                 },
                 {
                     "skill_name": "Git",
-                    "number_of_professionals": 378
+                    "number_of_professionals": 89
+                },
+                {
+                    "skill_name": "Machine Learning",
+                    "number_of_professionals": 73
                 },
                 {
                     "skill_name": "Linux",
-                    "number_of_professionals": 375
-                },
-                {
-                    "skill_name": "Research",
-                    "number_of_professionals": 363
+                    "number_of_professionals": 71
                 },
                 {
                     "skill_name": "JavaScript",
-                    "number_of_professionals": 342
+                    "number_of_professionals": 70
+                },
+                {
+                    "skill_name": "Project Management",
+                    "number_of_professionals": 68
+                },
+                {
+                    "skill_name": "Software Development",
+                    "number_of_professionals": 68
                 }
             ]
         }
