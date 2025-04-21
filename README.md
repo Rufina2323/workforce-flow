@@ -24,7 +24,7 @@ Each dot tells a story—watch how individuals move from Innopolis across the gl
 - **Tech used:**  
   `D3.js` for interactive 2D career graphs.
 
-![Tracing Career Paths](public/gifs/tracing-career-paths.gif)
+![Tracing Career Paths](images/gifs/transitions.gif)
 
 ---
 
@@ -37,7 +37,7 @@ Track how demand for different tech skills shifts over the years.
 - **Tech used:**  
   D3.js transitions, reactive sliders for year selection.
 
-![Tech Skills That Matter](public/gifs/skills-over-time.gif)
+![Tech Skills That Matter](images/gifs/skills.gif)
 
 ---
 
@@ -50,7 +50,7 @@ See the tech team composition change through the years—roles that rise, fall, 
 - **Tech used:**  
   D3.js pie job categories with tooltip-based role descriptions.
 
-![Tech Pie](public/gifs/tech-pie.gif)
+![Tech Pie](images/gifs/professions.gif)
 
 ---
 
