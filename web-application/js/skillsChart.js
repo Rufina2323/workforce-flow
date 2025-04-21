@@ -105,19 +105,38 @@ export async function createSkillsChart() {
                 .attr('width', d => xScale(d.number_of_professionals))
                 .attr('fill', PRIMARY_COLOR)
                 .attr('opacity', 0.8)
+                .style('cursor', 'pointer')
                 .on('mouseover', function (event, d) {
                     d3.select(this)
-                        .transition().duration(200)
+                        .transition()
+                        .duration(200)
                         .attr('opacity', 1);
 
-                    tooltip.transition().duration(200).style('opacity', .9);
-                    tooltip.html(`${d.number_of_professionals} professionals`)
-                        .style('left', (event.pageX + 10) + 'px')
-                        .style('top', (event.pageY - 28) + 'px');
+                    tooltip.transition()
+                        .duration(200)
+                        .style('opacity', 1);
+
+                   
+                    tooltip.html(`
+                        Number of Professionals: ${d.number_of_professionals}<br/>
+                    `)
+                    .style('left', (event.pageX + 15) + 'px')
+                    .style('top', (event.pageY - 10) + 'px');
+                })
+                .on('mousemove', function(event) {
+                    tooltip
+                        .style('left', (event.pageX + 15) + 'px')
+                        .style('top', (event.pageY - 10) + 'px');
                 })
                 .on('mouseout', function () {
-                    d3.select(this).transition().duration(200).attr('opacity', 0.8);
-                    tooltip.transition().duration(500).style('opacity', 0);
+                    d3.select(this)
+                        .transition()
+                        .duration(200)
+                        .attr('opacity', 0.8);
+                        
+                    tooltip.transition()
+                        .duration(500)
+                        .style('opacity', 0);
                 });
 
             const labels = g.selectAll('.label')

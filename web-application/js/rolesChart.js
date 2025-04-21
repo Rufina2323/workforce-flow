@@ -127,30 +127,36 @@ export async function createRolesChart() {
                     d3.select(this)
                         .transition()
                         .duration(200)
+                        .style('opacity', 1)
                         .attr('transform', function() {
                             const centroid = arc.centroid(d);
                             return `translate(${centroid[0] * 0.05},${centroid[1] * 0.05})`;
                         });
 
-                    tooltip.transition()
-                        .duration(200)
-                        .style('opacity', 0.9);
-
                     const percentage = ((d.data.number_of_professionals /
                         yearData.reduce((acc, curr) => acc + curr.number_of_professionals, 0)) * 100).toFixed(1);
 
+                    tooltip.transition()
+                        .duration(200)
+                        .style('opacity', 1);
+
                     tooltip.html(`
-                        <strong>${d.data.profession_name}</strong><br/>
-                        Professionals: ${d.data.number_of_professionals}<br/>
-                        Share: ${percentage}%
+                        Number of Professionals: ${d.data.number_of_professionals}<br/>
+                        Market Share: ${percentage}%
                     `)
-                    .style('left', (event.pageX + 10) + 'px')
-                    .style('top', (event.pageY - 28) + 'px');
+                    .style('left', (event.pageX + 15) + 'px')
+                    .style('top', (event.pageY - 10) + 'px');
+                })
+                .on('mousemove', function(event) {
+                    tooltip
+                        .style('left', (event.pageX + 15) + 'px')
+                        .style('top', (event.pageY - 10) + 'px');
                 })
                 .on('mouseout', function() {
                     d3.select(this)
                         .transition()
                         .duration(200)
+                        .style('opacity', 0.85)
                         .attr('transform', 'translate(0,0)');
 
                     tooltip.transition()
